@@ -1,0 +1,7180 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912855,
+          40.807613
+        ]
+      },
+      "properties": {
+        "name": "Academic Leadership Charter School",
+        "gis_name": "ACADEMIC LEADERSHIP CHARTER SCHOOL",
+        "address": "677 E 141ST ST",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000064236",
+        "sed_code": "320700860957",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902377,
+          40.756648
+        ]
+      },
+      "properties": {
+        "name": "Academy of the City Charter School",
+        "gis_name": "ACADEMY OF THE CITY CHARTER SCHOOL",
+        "address": "31-29 60TH ST",
+        "city": "WOODSIDE",
+        "zip": "11377",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070183",
+        "sed_code": "343000860998",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920032,
+          40.812708
+        ]
+      },
+      "properties": {
+        "name": "Access Bronx Charter School",
+        "gis_name": "ACCESS BRONX CHARTER SCHOOL",
+        "address": "388 WILLIS AVE",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2004",
+        "authorizer": "Regents",
+        "instit_id": "800000056172",
+        "sed_code": "320700860852",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88362,
+          40.677147
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Apollo Charter School",
+        "gis_name": "ACHIEVEMENT FIRST APOLLO CHARTER SCHOOL",
+        "address": "350 LINWOOD ST",
+        "city": "BROOKLYN",
+        "zip": "11208",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000063975",
+        "sed_code": "331900860933",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876406,
+          40.666265
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Aspire Charter School",
+        "gis_name": "ACHIEVEMENT FIRST ASPIRE CHARTER SCHOOL",
+        "address": "982 HEGEMAN AVE",
+        "city": "BROOKLYN",
+        "zip": "11208",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000070171",
+        "sed_code": "331900860993",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913255,
+          40.674247
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Brownsville Charter School",
+        "gis_name": "ACHIEVEMENT FIRST BROWNSVILLE CHARTER SCHOOL",
+        "address": "2021 BERGEN ST-RM 149",
+        "city": "BROOKLYN",
+        "zip": "11233",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061077",
+        "sed_code": "332300860912",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919537,
+          40.697809
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Bushwick Charter School",
+        "gis_name": "ACHIEVEMENT FIRST-BUSHWICK CHARTER SCHOOL",
+        "address": "1300 GREENE AVE",
+        "city": "BROOKLYN",
+        "zip": "11237",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 32",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059570",
+        "sed_code": "333200860906",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942089,
+          40.677361
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Charter School 11",
+        "gis_name": "ACHIEVEMENT FIRST CHARTER SCHOOL 11",
+        "address": "1485 PACIFIC ST",
+        "city": "BROOKLYN",
+        "zip": "11216",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000084524",
+        "sed_code": "331600861085",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937003,
+          40.662232
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Crown Heights Charter School",
+        "gis_name": "ACHIEVEMENT FIRST CROWN HEIGHTS CHARTER SCHOOL",
+        "address": "790 E NEW YORK AVE",
+        "city": "BROOKLYN",
+        "zip": "11203",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058356",
+        "sed_code": "331700860879",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893549,
+          40.66365
+        ]
+      },
+      "properties": {
+        "name": "Achievement First East New York Charter School",
+        "gis_name": "ACHIEVEMENT FIRST EAST NEW YORK CHARTER SCHOOL",
+        "address": "557 PENNSYLVANIA AVE",
+        "city": "BROOKLYN",
+        "zip": "11207",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058357",
+        "sed_code": "331900860880",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965831,
+          40.682458
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Endeavor Charter School",
+        "gis_name": "ACHIEVEMENT FIRST ENDEAVOR CHARTER SCHOOL",
+        "address": "510 WAVERLY AVE",
+        "city": "BROOKLYN",
+        "zip": "11238",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059324",
+        "sed_code": "331300860902",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76356,
+          40.688269
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Legacy Charter School",
+        "gis_name": "ACHIEVEMENT FIRST LEGACY CHARTER SCHOOL",
+        "address": "118-49 MONTAUK ST",
+        "city": "SAINT ALBANS",
+        "zip": "11412",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2021",
+        "authorizer": "SUNY",
+        "instit_id": "800000084523",
+        "sed_code": "331600861082",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885446,
+          40.659885
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Linden Charter School",
+        "gis_name": "ACHIEVEMENT FIRST LINDEN CHARTER SCHOOL",
+        "address": "800 VAN SICLEN AVE",
+        "city": "BROOKLYN",
+        "zip": "11207",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082611",
+        "sed_code": "331900861072",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915157,
+          40.69389
+        ]
+      },
+      "properties": {
+        "name": "Achievement First North Brooklyn Preparatory Charter School",
+        "gis_name": "ACHIEVEMENT FIRST NORTH BROOKLYN PREPARATORY CHARTER SCHOOL",
+        "address": "200 WOODBINE ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 32",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000076142",
+        "sed_code": "333200861045",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928098,
+          40.700267
+        ]
+      },
+      "properties": {
+        "name": "Achievement First Voyager Charter School",
+        "gis_name": "ACHIEVEMENT FIRST VOYAGER CHARTER SCHOOL",
+        "address": "35 STARR ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084525",
+        "sed_code": "333200861086",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922044,
+          40.830076
+        ]
+      },
+      "properties": {
+        "name": "AECI II:  NYC Charter High School for Computer Engineering and Innovation",
+        "gis_name": "AECI II:  NYC CHARTER HIGH SCHOOL FOR COMPUTER ENGINEERING AND INNOVATION",
+        "address": "111 E 164TH ST",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090717",
+        "sed_code": "320900861154",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943842,
+          40.791051
+        ]
+      },
+      "properties": {
+        "name": "Amber Charter School East Harlem",
+        "gis_name": "AMBER CHARTER SCHOOL EAST HARLEM",
+        "address": "220 E 106TH ST",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2002",
+        "authorizer": "SUNY",
+        "instit_id": "800000047051",
+        "sed_code": "310400860806",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917507,
+          40.870422
+        ]
+      },
+      "properties": {
+        "name": "Amber Charter School Inwood",
+        "gis_name": "AMBER CHARTER SCHOOL INWOOD",
+        "address": "532 W 215TH ST",
+        "city": "NEW YORK",
+        "zip": "10034",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2021",
+        "authorizer": "SUNY",
+        "instit_id": "800000091164",
+        "sed_code": "310600861176",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907122,
+          40.880775
+        ]
+      },
+      "properties": {
+        "name": "Amber Charter School Kingsbridge",
+        "gis_name": "AMBER CHARTER SCHOOL KINGSBRIDGE",
+        "address": "3120 CORLEAR AVE",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084247",
+        "sed_code": "321000861074",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909679,
+          40.809189
+        ]
+      },
+      "properties": {
+        "name": "American Dream Charter School",
+        "gis_name": "AMERICAN DREAM CHARTER SCHOOL",
+        "address": "403 CONCORD AVE",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2014",
+        "authorizer": "Regents",
+        "instit_id": "800000082483",
+        "sed_code": "320700861062",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932866,
+          40.853685
+        ]
+      },
+      "properties": {
+        "name": "American Dream Charter School II",
+        "gis_name": "AMERICAN DREAM CHARTER SCHOOL II",
+        "address": "652 W 197TH ST",
+        "city": "NEW YORK",
+        "zip": "10033",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2025",
+        "authorizer": "Regents",
+        "instit_id": "800000090722",
+        "sed_code": "310600861157",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910308,
+          40.875137
+        ]
+      },
+      "properties": {
+        "name": "Atmosphere Academy Public Charter School",
+        "gis_name": "ATMOSPHERE ACADEMY PUBLIC CHARTER SCHOOL",
+        "address": "22 MARBLE HILL AVE",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2015",
+        "authorizer": "SUNY",
+        "instit_id": "800000083985",
+        "sed_code": "321000861075",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93754,
+          40.694708
+        ]
+      },
+      "properties": {
+        "name": "Bedford Stuyvesant New Beginnings Charter School",
+        "gis_name": "BEDFORD STUYVESANT NEW BEGINNINGS CHARTER SCHOOL",
+        "address": "82 LEWIS AVE",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067232",
+        "sed_code": "331600860971",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93754,
+          40.694708
+        ]
+      },
+      "properties": {
+        "name": "Bedford Stuyvesant New Beginnings Charter School 2",
+        "gis_name": "BEDFORD STUYVESANT NEW BEGINNINGS CHARTER SCHOOL 2",
+        "address": "82 LEWIS AVE",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000093167",
+        "sed_code": "331600861197",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953217,
+          40.703734
+        ]
+      },
+      "properties": {
+        "name": "Beginning with Children Charter School II",
+        "gis_name": "BEGINNING WITH CHILDREN CHARTER SCHOOL II",
+        "address": "215 HEYWARD ST",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071156",
+        "sed_code": "331400861021",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884877,
+          40.840548
+        ]
+      },
+      "properties": {
+        "name": "Bold Charter School",
+        "gis_name": "BOLD CHARTER SCHOOL",
+        "address": "1909 DALY AVE",
+        "city": "BRONX",
+        "zip": "10460",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090246",
+        "sed_code": "321200861143",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.103979,
+          40.609295
+        ]
+      },
+      "properties": {
+        "name": "Bridge Preparatory Charter School",
+        "gis_name": "BRIDGE PREPARATORY CHARTER SCHOOL",
+        "address": "715 OCEAN TERRACE-BLDG E",
+        "city": "STATEN ISLAND",
+        "zip": "10301",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090253",
+        "sed_code": "353100861144",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906661,
+          40.861955
+        ]
+      },
+      "properties": {
+        "name": "Brilla Caritas Charter School",
+        "gis_name": "BRILLA CARITAS CHARTER SCHOOL",
+        "address": "2336 ANDREWS AVE",
+        "city": "BRONX",
+        "zip": "10468",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000090773",
+        "sed_code": "321000861160",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919389,
+          40.812706
+        ]
+      },
+      "properties": {
+        "name": "Brilla College Preparatory Charter School",
+        "gis_name": "BRILLA COLLEGE PREPARATORY CHARTER SCHOOL",
+        "address": "413 E 144TH ST",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000074675",
+        "sed_code": "320700861014",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924448,
+          40.838792
+        ]
+      },
+      "properties": {
+        "name": "Brilla Pax Charter School",
+        "gis_name": "BRILLA PAX CHARTER SCHOOL",
+        "address": "1248 NELSON AVE",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000090774",
+        "sed_code": "320900861161",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909572,
+          40.818852
+        ]
+      },
+      "properties": {
+        "name": "Brilla Veritas Charter School",
+        "gis_name": "BRILLA VERITAS CHARTER SCHOOL",
+        "address": "600 E 156TH ST",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000087930",
+        "sed_code": "320700861106",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919715,
+          40.839547
+        ]
+      },
+      "properties": {
+        "name": "Bronx Academy of Promise Charter School",
+        "gis_name": "BRONX ACADEMY OF PROMISE CHARTER SCHOOL",
+        "address": "1349 INWOOD AVE",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061090",
+        "sed_code": "320900860913",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.837661,
+          40.825759
+        ]
+      },
+      "properties": {
+        "name": "Bronx Arts and Science Charter School",
+        "gis_name": "BRONX ARTS AND SCIENCE CHARTER SCHOOL",
+        "address": "925 HUTCHINSON RIVER PKWAY",
+        "city": "BRONX",
+        "zip": "10465",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090719",
+        "sed_code": "320800861155",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.840007,
+          40.884563
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Better Learning",
+        "gis_name": "BRONX CHARTER SCHOOL FOR BETTER LEARNING",
+        "address": "3740 BAYCHESTER AVE ANNEX",
+        "city": "BRONX",
+        "zip": "10466",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2003",
+        "authorizer": "SUNY",
+        "instit_id": "800000056593",
+        "sed_code": "321100860855",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836305,
+          40.864204
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Better Learning II",
+        "gis_name": "BRONX CHARTER SCHOOL FOR BETTER LEARNING II",
+        "address": "2545 GUNTHER AVE",
+        "city": "BRONX",
+        "zip": "10469",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2015",
+        "authorizer": "SUNY",
+        "instit_id": "800000083986",
+        "sed_code": "321100861076",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858602,
+          40.834143
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Excellence",
+        "gis_name": "BRONX CHARTER SCHOOL FOR EXCELLENCE",
+        "address": "1960 BENEDICT AVE",
+        "city": "BRONX",
+        "zip": "10462",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2004",
+        "authorizer": "SUNY",
+        "instit_id": "800000056707",
+        "sed_code": "321100860859",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86431,
+          40.845887
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Excellence 2",
+        "gis_name": "BRONX CHARTER SCHOOL FOR EXCELLENCE 2",
+        "address": "1804 HOLLAND AVE",
+        "city": "BRONX",
+        "zip": "10462",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000086903",
+        "sed_code": "321100861103",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863523,
+          40.888128
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Excellence 3",
+        "gis_name": "BRONX CHARTER SCHOOL FOR EXCELLENCE 3",
+        "address": "3956 CARPENTER AVE",
+        "city": "BRONX",
+        "zip": "10466",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000088149",
+        "sed_code": "321100861115",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84235,
+          40.898669
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Excellence 4",
+        "gis_name": "BRONX CHARTER SCHOOL FOR EXCELLENCE 4",
+        "address": "4300 MURDOCK AVE",
+        "city": "BRONX",
+        "zip": "10466",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089003",
+        "sed_code": "321100861120",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896608,
+          40.84766
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for Excellence 5",
+        "gis_name": "BRONX CHARTER SCHOOL FOR EXCELLENCE 5",
+        "address": "1946 BATHGATE AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000089004",
+        "sed_code": "321000861121",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.886558,
+          40.821627
+        ]
+      },
+      "properties": {
+        "name": "Bronx Charter School for the Arts",
+        "gis_name": "BRONX CHARTER SCHOOL FOR THE ARTS",
+        "address": "950 LONGFELLOW AVE",
+        "city": "BRONX",
+        "zip": "10474",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2003",
+        "authorizer": "Regents",
+        "instit_id": "800000055808",
+        "sed_code": "320800860846",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874797,
+          40.872726
+        ]
+      },
+      "properties": {
+        "name": "Bronx Community Charter School",
+        "gis_name": "BRONX COMMUNITY CHARTER SCHOOL",
+        "address": "3170 WEBSTER AVE",
+        "city": "BRONX",
+        "zip": "10467",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061078",
+        "sed_code": "321000860914",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923308,
+          40.822961
+        ]
+      },
+      "properties": {
+        "name": "Bronx Global Learning Institute for Girls Charter School, the Shirley Rodrguez-Remeneski School",
+        "gis_name": "BRONX GLOBAL LEARNING INSTITUTE FOR GIRLS CHARTER SCHOOL THE SHIRLEY RODRGUEZ-REMENESKI SCHOOL",
+        "address": "750 CONCOURSE VILLAGE W-LOWER LEVEL",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061079",
+        "sed_code": "320700860915",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900227,
+          40.839115
+        ]
+      },
+      "properties": {
+        "name": "Bronx Preparatory Charter School",
+        "gis_name": "BRONX PREPARATORY CHARTER SCHOOL",
+        "address": "3872 3RD AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2000",
+        "authorizer": "SUNY",
+        "instit_id": "800000055860",
+        "sed_code": "320900860807",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917886,
+          40.668756
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Ascend Charter School",
+        "gis_name": "BROOKLYN ASCEND CHARTER SCHOOL",
+        "address": "1501 PITKIN AVE",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061080",
+        "sed_code": "332300860916",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920796,
+          40.662014
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Ascend Charter School 6",
+        "gis_name": "BROOKLYN ASCEND CHARTER SCHOOL 6",
+        "address": "205 ROCKAWAY PARKWAY-6TH FL",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000091165",
+        "sed_code": "331800861177",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947792,
+          40.694164
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Charter School (The)",
+        "gis_name": "BROOKLYN CHARTER SCHOOL (THE)",
+        "address": "545 WILLOUGHBY AVE",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2004",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000044900",
+        "sed_code": "331400860809",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969618,
+          40.631903
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Dreams Charter School",
+        "gis_name": "BROOKLYN DREAMS CHARTER SCHOOL",
+        "address": "259 PARKVILLE AVE",
+        "city": "BROOKLYN",
+        "zip": "11230",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000068331",
+        "sed_code": "332200860978",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933531,
+          40.691231
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Emerging Leaders Academy Charter School",
+        "gis_name": "BROOKLYN EMERGING LEADERS ACADEMY CHARTER SCHOOL",
+        "address": "125 STUYVESANT AVE-RM 213",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000088150",
+        "sed_code": "331600861112",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925328,
+          40.689767
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Excelsior Charter School",
+        "gis_name": "BROOKLYN EXCELSIOR CHARTER SCHOOL",
+        "address": "856 QUINCY ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2003",
+        "authorizer": "SUNY",
+        "instit_id": "800000056456",
+        "sed_code": "331600860847",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987232,
+          40.700324
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Laboratory Charter School",
+        "gis_name": "BROOKLYN LABORATORY CHARTER SCHOOL",
+        "address": "77 SANDS ST",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2014",
+        "authorizer": "Regents",
+        "instit_id": "800000082484",
+        "sed_code": "331300861063",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007103,
+          40.653336
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Prospect Charter School - CSD 15.2",
+        "gis_name": "BROOKLYN PROSPECT CHARTER SCHOOL SUNSET YARDS CAMPUS",
+        "address": "341 39TH ST",
+        "city": "BROOKLYN",
+        "zip": "11232",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090775",
+        "sed_code": "331500861162",
+        "match_method": "id",
+        "name_ratio": 0.635
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985506,
+          40.69208
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Prospect Charter School-CSD 13",
+        "gis_name": "BROOKLYN PROSPECT CHARTER SCHOOL DOWNTOWN CAMPUS",
+        "address": "80 WILLOUGHBY ST",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000083987",
+        "sed_code": "331300861077",
+        "match_method": "id",
+        "name_ratio": 0.702
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978584,
+          40.648163
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Prospect Charter School-CSD 15",
+        "gis_name": "BROOKLYN PROSPECT CHARTER SCHOOL WINDSOR TERRACE CAMPUS",
+        "address": "3002 FORT HAMILTON PKWY",
+        "city": "BROOKLYN",
+        "zip": "11218",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063976",
+        "sed_code": "331500860935",
+        "match_method": "id",
+        "name_ratio": 0.625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982259,
+          40.688965
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Rise Charter School",
+        "gis_name": "BROOKLYN RISE CHARTER SCHOOL",
+        "address": "9 HANOVER PL",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090721",
+        "sed_code": "331500861156",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867115,
+          40.669128
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Scholars Charter School",
+        "gis_name": "BROOKLYN SCHOLARS CHARTER SCHOOL",
+        "address": "2635 LINDEN BLVD",
+        "city": "BROOKLYN",
+        "zip": "11208",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2009",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000064237",
+        "sed_code": "331900860958",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982524,
+          40.656384
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Urban Garden Charter School",
+        "gis_name": "BROOKLYN URBAN GARDEN CHARTER SCHOOL",
+        "address": "500 19TH ST",
+        "city": "BROOKLYN",
+        "zip": "11215",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000071074",
+        "sed_code": "331500861011",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004896,
+          40.724011
+        ]
+      },
+      "properties": {
+        "name": "Broome Street Academy Charter High School",
+        "gis_name": "BROOME STREET ACADEMY CHARTER HIGH SCHOOL",
+        "address": "121 AVE OF THE AMERICAS",
+        "city": "NEW YORK",
+        "zip": "10013",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000069913",
+        "sed_code": "310200860992",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917886,
+          40.668756
+        ]
+      },
+      "properties": {
+        "name": "Brownsville Ascend Charter School",
+        "gis_name": "BROWNSVILLE ASCEND CHARTER SCHOOL",
+        "address": "1501 PITKIN AVE",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000064233",
+        "sed_code": "332300860954",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943814,
+          40.707156
+        ]
+      },
+      "properties": {
+        "name": "Brownsville Collegiate  Charter School",
+        "gis_name": "BROWNSVILLE COLLEGIATE  CHARTER SCHOOL",
+        "address": "140 MONTROSE AVE",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063979",
+        "sed_code": "332300860939",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909004,
+          40.693641
+        ]
+      },
+      "properties": {
+        "name": "Bushwick Ascend Charter School",
+        "gis_name": "BUSHWICK ASCEND CHARTER SCHOOL",
+        "address": "751 KNICKERBOCKER AVE",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 32",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067493",
+        "sed_code": "333200860987",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900663,
+          40.644035
+        ]
+      },
+      "properties": {
+        "name": "Canarsie Ascend Charter School",
+        "gis_name": "CANARSIE ASCEND CHARTER SCHOOL",
+        "address": "9719 FLATLANDS AVE",
+        "city": "BROOKLYN",
+        "zip": "11236",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000072840",
+        "sed_code": "331800861033",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.826676,
+          40.880113
+        ]
+      },
+      "properties": {
+        "name": "Capital Preparatory Bronx Charter School",
+        "gis_name": "CAPITAL PREPARATORY BRONX CHARTER SCHOOL",
+        "address": "755 CO OP CITY BLVD",
+        "city": "BRONX",
+        "zip": "10475",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000090780",
+        "sed_code": "321100861163",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938434,
+          40.808256
+        ]
+      },
+      "properties": {
+        "name": "Capital Preparatory CP Harlem Charter School",
+        "gis_name": "CAPITAL PREPARATORY (CP) HARLEM CHARTER SCHOOL",
+        "address": "2041 MADISON AVE",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084243",
+        "sed_code": "310500861081",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887494,
+          40.851366
+        ]
+      },
+      "properties": {
+        "name": "Cardinal Mccloskey Community Charter School",
+        "gis_name": "CARDINAL MCCLOSKEY COMMUNITY CHARTER SCHOOL",
+        "address": "685 E 182ND ST",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000089573",
+        "sed_code": "321000861130",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949128,
+          40.639161
+        ]
+      },
+      "properties": {
+        "name": "Central Brooklyn Ascend Charter School",
+        "gis_name": "CENTRAL BROOKLYN ASCEND CHARTER SCHOOL",
+        "address": "465 E 29TH ST",
+        "city": "BROOKLYN",
+        "zip": "11226",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000076143",
+        "sed_code": "332200861050",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874897,
+          40.736702
+        ]
+      },
+      "properties": {
+        "name": "Central Queens Academy Charter School",
+        "gis_name": "CENTRAL QUEENS ACADEMY CHARTER SCHOOL",
+        "address": "88-14 JUSTICE AVE",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071161",
+        "sed_code": "342400861025",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874897,
+          40.736702
+        ]
+      },
+      "properties": {
+        "name": "Central Queens Academy Charter School II",
+        "gis_name": "CENTRAL QUEENS ACADEMY CHARTER SCHOOL II",
+        "address": "88-14 JUSTICE AVE",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000093168",
+        "sed_code": "342400861198",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.763853,
+          40.600228
+        ]
+      },
+      "properties": {
+        "name": "Challenge Preparatory Charter School",
+        "gis_name": "CHALLENGE PREPARATORY CHARTER SCHOOL",
+        "address": "710 HARTMAN LANE",
+        "city": "FAR ROCKAWAY",
+        "zip": "11691",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067496",
+        "sed_code": "342700860990",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911812,
+          40.853984
+        ]
+      },
+      "properties": {
+        "name": "Charter High School for Law and Social Justice",
+        "gis_name": "CHARTER SCHOOL FOR LAW AND SOCIAL JUSTICE",
+        "address": "1960 UNIVERSITY AVE",
+        "city": "BRONX",
+        "zip": "10453",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000082485",
+        "sed_code": "321000861064",
+        "match_method": "id",
+        "name_ratio": 0.912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889922,
+          40.843695
+        ]
+      },
+      "properties": {
+        "name": "Children's Aid College Preparatory Charter School",
+        "gis_name": "CHILDREN'S AID COLLEGE PREPARATORY CHARTER SCHOOL",
+        "address": "1919 PROSPECT AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071164",
+        "sed_code": "321200861026",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961275,
+          40.690084
+        ]
+      },
+      "properties": {
+        "name": "Community Partnership Charter School",
+        "gis_name": "COMMUNITY PARTNERSHIP CHARTER SCHOOL",
+        "address": "241 EMERSON PL",
+        "city": "BROOKLYN",
+        "zip": "11205",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2000",
+        "authorizer": "SUNY",
+        "instit_id": "800000045417",
+        "sed_code": "331300860810",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978041,
+          40.695259
+        ]
+      },
+      "properties": {
+        "name": "Community Roots Charter School",
+        "gis_name": "COMMUNITY ROOTS CHARTER SCHOOL",
+        "address": "51 ST EDWARDS ST-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11205",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2006",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000059312",
+        "sed_code": "331300860893",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011662,
+          40.708691
+        ]
+      },
+      "properties": {
+        "name": "Compass Charter School",
+        "gis_name": "COMPASS CHARTER SCHOOL",
+        "address": "300 ADELPHI-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11205",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2014",
+        "authorizer": "Regents",
+        "instit_id": "800000082487",
+        "sed_code": "331300861066",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972479,
+          40.582227
+        ]
+      },
+      "properties": {
+        "name": "Coney Island Preparatory Public Charter School",
+        "gis_name": "CONEY ISLAND PREPARATORY PUBLIC CHARTER SCHOOL",
+        "address": "501 WEST AVE",
+        "city": "BROOKLYN",
+        "zip": "11224",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 21",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063971",
+        "sed_code": "332100860949",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919573,
+          40.816085
+        ]
+      },
+      "properties": {
+        "name": "Creo College Preparatory Charter School",
+        "gis_name": "CREO COLLEGE PREPARATORY CHARTER SCHOOL",
+        "address": "524 COURTLANDT AVE",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090254",
+        "sed_code": "320700861145",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908399,
+          40.654271
+        ]
+      },
+      "properties": {
+        "name": "Cultural Arts Academy Charter School at Spring Creek",
+        "gis_name": "CULTURAL ARTS ACADEMY CHARTER SCHOOL AT SPRING CREEK",
+        "address": "1400 LINDEN BLVD",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067494",
+        "sed_code": "331800860988",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8669,
+          40.681164
+        ]
+      },
+      "properties": {
+        "name": "Cypress Hills Ascend Charter School",
+        "gis_name": "CYPRESS HILLS ASCEND CHARTER SCHOOL",
+        "address": "396 GRANT AVE",
+        "city": "BROOKLYN",
+        "zip": "11208",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089574",
+        "sed_code": "331900861131",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935152,
+          40.8016
+        ]
+      },
+      "properties": {
+        "name": "Democracy Prep Endurance Charter School",
+        "gis_name": "DEMOCRACY PREP ENDURANCE CHARTER SCHOOL",
+        "address": "240 E 123RD ST",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000070174",
+        "sed_code": "321200861001",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945103,
+          40.814336
+        ]
+      },
+      "properties": {
+        "name": "Democracy Prep Harlem Charter School",
+        "gis_name": "DEMOCRACY PREP HARLEM CHARTER SCHOOL",
+        "address": "207 W 133RD ST",
+        "city": "NEW YORK",
+        "zip": "10030",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067495",
+        "sed_code": "310500860989",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937599,
+          40.813185
+        ]
+      },
+      "properties": {
+        "name": "Democracy Preparatory Charter School",
+        "gis_name": "DEMOCRACY PREPARATORY CHARTER SCHOOL",
+        "address": "2230 5TH AVE",
+        "city": "NEW YORK",
+        "zip": "10037",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059313",
+        "sed_code": "310500860894",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900673,
+          40.827756
+        ]
+      },
+      "properties": {
+        "name": "Dr Richard Izquierdo Health and Science Charter School",
+        "gis_name": "DR RICHARD IZQUIERDO HEALTH AND SCIENCE CHARTER SCHOOL",
+        "address": "800 HOME ST-RM 205",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067013",
+        "sed_code": "321200860965",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94415,
+          40.789199
+        ]
+      },
+      "properties": {
+        "name": "Dream Charter School East Harlem",
+        "gis_name": "DREAM CHARTER SCHOOL EAST HARLEM",
+        "address": "1991 2ND AVE",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061082",
+        "sed_code": "310400860919",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921644,
+          40.83465
+        ]
+      },
+      "properties": {
+        "name": "Dream Charter School Highbridge",
+        "gis_name": "DREAM CHARTER SCHOOL HIGHBRIDGE",
+        "address": "1162 RIVER AVE",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2022",
+        "authorizer": "SUNY",
+        "instit_id": "800000090789",
+        "sed_code": "320900861166",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928894,
+          40.807261
+        ]
+      },
+      "properties": {
+        "name": "Dream Charter School Mott Haven",
+        "gis_name": "DREAM CHARTER SCHOOL MOTT HAVEN",
+        "address": "20 BRUCKNER BLVD",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090791",
+        "sed_code": "320700861167",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915031,
+          40.818324
+        ]
+      },
+      "properties": {
+        "name": "Earl Monroe New Renaissance Basketball Academy Charter School",
+        "gis_name": "EARL MONROE NEW RENAISSANCE BASKETBALL ACADEMY CHARTER SCHOOL",
+        "address": "647 ELTON AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2021",
+        "authorizer": "SUNY",
+        "instit_id": "800000090795",
+        "sed_code": "320700861169",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.180858,
+          40.604549
+        ]
+      },
+      "properties": {
+        "name": "Early College Charter School",
+        "gis_name": "EARLY COLLEGE CHARTER SCHOOL",
+        "address": "1441 SOUTH AVE-5TH FL",
+        "city": "STATEN ISLAND",
+        "zip": "10314",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2018",
+        "authorizer": "Regents",
+        "instit_id": "800000089927",
+        "sed_code": "353100861136",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882027,
+          40.678495
+        ]
+      },
+      "properties": {
+        "name": "East Brooklyn Ascend Charter School (Ebacs)",
+        "gis_name": "EAST BROOKLYN ASCEND CHARTER SCHOOL (EBACS)",
+        "address": "260 SHEPHERD AVE",
+        "city": "BROOKLYN",
+        "zip": "11208",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000089575",
+        "sed_code": "331900861132",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939412,
+          40.65263
+        ]
+      },
+      "properties": {
+        "name": "East Flatbush Ascend Charter School (Efacs)",
+        "gis_name": "EAST FLATBUSH ASCEND CHARTER SCHOOL (EFACS)",
+        "address": "870 ALBANY AVE",
+        "city": "BROOKLYN",
+        "zip": "11203",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090784",
+        "sed_code": "331800861165",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941496,
+          40.788404
+        ]
+      },
+      "properties": {
+        "name": "East Harlem Scholars Academy Charter School",
+        "gis_name": "EAST HARLEM SCHOLARS ACADEMY CHARTER SCHOOL",
+        "address": "2017 FIRST AVE",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070176",
+        "sed_code": "310400860995",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942674,
+          40.79
+        ]
+      },
+      "properties": {
+        "name": "East Harlem Scholars Academy Charter School II",
+        "gis_name": "EAST HARLEM SCHOLARS ACADEMY CHARTER SCHOOL II",
+        "address": "2050 2ND AVE",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000076141",
+        "sed_code": "310400861046",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987232,
+          40.700324
+        ]
+      },
+      "properties": {
+        "name": "Edmund W Gordon Brooklyn Laboratory Charter School",
+        "gis_name": "EDMUND W GORDON BROOKLYN LABORATORY CHARTER SCHOOL",
+        "address": "77 SANDS ST",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2018",
+        "authorizer": "Regents",
+        "instit_id": "800000087934",
+        "sed_code": "331300861110",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.883981,
+          40.737543
+        ]
+      },
+      "properties": {
+        "name": "Elm Community Charter School",
+        "gis_name": "ELM COMMUNITY CHARTER SCHOOL",
+        "address": "79-17 51ST AVE",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089576",
+        "sed_code": "342400861133",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935412,
+          40.688561
+        ]
+      },
+      "properties": {
+        "name": "Ember Charter School for Mindful Education, Innovation and Transformation",
+        "gis_name": "EMBER CHARTER SCHOOL FOR MINDFUL EDUCATION INNOVATION AND TRANSFORMATION",
+        "address": "616 QUINCY ST-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2011",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067236",
+        "sed_code": "331600860975",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.888191,
+          40.820289
+        ]
+      },
+      "properties": {
+        "name": "Emblaze Academy Charter School",
+        "gis_name": "EMBLAZE ACADEMY CHARTER SCHOOL",
+        "address": "1164 GARRISON AVE",
+        "city": "BRONX",
+        "zip": "10474",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2018",
+        "authorizer": "Regents",
+        "instit_id": "800000089569",
+        "sed_code": "320800861126",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.824242,
+          40.8644
+        ]
+      },
+      "properties": {
+        "name": "Equality Charter School",
+        "gis_name": "EQUALITY CHARTER SCHOOL",
+        "address": "4140 HUTCHINSON RIVER PKWY E",
+        "city": "BRONX",
+        "zip": "10475",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2009",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000064235",
+        "sed_code": "321100860956",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926731,
+          40.857083
+        ]
+      },
+      "properties": {
+        "name": "Equity Project Charter School (The)",
+        "gis_name": "EQUITY PROJECT CHARTER SCHOOL (THE)",
+        "address": "549 AUDUBON AVE-TRAILER 30",
+        "city": "NEW YORK",
+        "zip": "10040",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2009",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061094",
+        "sed_code": "310600860929",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951482,
+          40.656296
+        ]
+      },
+      "properties": {
+        "name": "Explore Charter School",
+        "gis_name": "EXPLORE CHARTER SCHOOL",
+        "address": "655 PARKSIDE AVE",
+        "city": "BROOKLYN",
+        "zip": "11226",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2002",
+        "authorizer": "SUNY",
+        "instit_id": "800000048424",
+        "sed_code": "331700860841",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92826,
+          40.672616
+        ]
+      },
+      "properties": {
+        "name": "Explore Empower Charter School",
+        "gis_name": "EXPLORE EMPOWER CHARTER SCHOOL",
+        "address": "188 ROCHESTER AVE",
+        "city": "BROOKLYN",
+        "zip": "11213",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063972",
+        "sed_code": "331700860950",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908128,
+          40.642532
+        ]
+      },
+      "properties": {
+        "name": "Explore Excel Charter School",
+        "gis_name": "EXPLORE EXCEL CHARTER SCHOOL",
+        "address": "1077 REMSEN AVE",
+        "city": "BROOKLYN",
+        "zip": "11236",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070559",
+        "sed_code": "331800860702",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918702,
+          40.84043
+        ]
+      },
+      "properties": {
+        "name": "Family Life Academy Charter School",
+        "gis_name": "FAMILY LIFE ACADEMY CHARTER SCHOOL",
+        "address": "14 W 170TH ST",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2001",
+        "authorizer": "SUNY",
+        "instit_id": "800000046302",
+        "sed_code": "320900860839",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924975,
+          40.811577
+        ]
+      },
+      "properties": {
+        "name": "Family Life Academy Charter School II",
+        "gis_name": "FAMILY LIFE ACADEMY CHARTER SCHOOL II",
+        "address": "296 E 140TH ST",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071155",
+        "sed_code": "320700861028",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930151,
+          40.816309
+        ]
+      },
+      "properties": {
+        "name": "Family Life Academy Charter School III",
+        "gis_name": "FAMILY LIFE ACADEMY CHARTER SCHOOL III",
+        "address": "370 GERARD AVE",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082610",
+        "sed_code": "320700861070",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919294,
+          40.84091
+        ]
+      },
+      "properties": {
+        "name": "Family Life Academy Charter Schools High School",
+        "gis_name": "FAMILY LIFE ACADEMY CHARTER SCHOOLS HIGH SCHOOL",
+        "address": "1401 INWOOD AVE",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2022",
+        "authorizer": "SUNY",
+        "instit_id": "800000091166",
+        "sed_code": "320900861178",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954488,
+          40.652546
+        ]
+      },
+      "properties": {
+        "name": "Flatbush Ascend Charter School",
+        "gis_name": "FLATBUSH ASCEND CHARTER SCHOOL",
+        "address": "123 LINDEN BLVD",
+        "city": "BROOKLYN",
+        "zip": "11203",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090781",
+        "sed_code": "331700861164",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.878245,
+          40.737387
+        ]
+      },
+      "properties": {
+        "name": "Forte Preparatory Academy Charter School",
+        "gis_name": "FORTE PREPARATORY ACADEMY CHARTER SCHOOL",
+        "address": "51-35 REEDER ST, 2ND FL",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000088152",
+        "sed_code": "342400861113",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94797,
+          40.806174
+        ]
+      },
+      "properties": {
+        "name": "Future Leaders Institute Charter School",
+        "gis_name": "FUTURE LEADERS INSTITUTE CHARTER SCHOOL",
+        "address": "134 W 122ND ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2005",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000058358",
+        "sed_code": "310300860881",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934901,
+          40.816981
+        ]
+      },
+      "properties": {
+        "name": "Global Community Charter School",
+        "gis_name": "GLOBAL COMMUNITY CHARTER SCHOOL",
+        "address": "2350 5TH AVE",
+        "city": "NEW YORK",
+        "zip": "10037",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071075",
+        "sed_code": "310500861012",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85862,
+          40.818434
+        ]
+      },
+      "properties": {
+        "name": "Grand Concourse Academy Charter School",
+        "gis_name": "GRAND CONCOURSE ACADEMY CHARTER SCHOOL",
+        "address": "625 BOLTON AVE",
+        "city": "BRONX",
+        "zip": "10473",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2004",
+        "authorizer": "SUNY",
+        "instit_id": "800000057943",
+        "sed_code": "320800860872",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002869,
+          40.730793
+        ]
+      },
+      "properties": {
+        "name": "Great Oaks Kathleen Sherry Charter School",
+        "gis_name": "GREAT OAKS KATHLEEN SHERRY CHARTER SCHOOL",
+        "address": "240 BLEECKER ST",
+        "city": "NEW YORK",
+        "zip": "10014",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000075841",
+        "sed_code": "310200861055",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935693,
+          40.753173
+        ]
+      },
+      "properties": {
+        "name": "Growing Up Green Charter School",
+        "gis_name": "GROWING UP GREEN CHARTER SCHOOL",
+        "address": "39-27 28TH ST",
+        "city": "LONG ISLAND CITY",
+        "zip": "11101",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2009",
+        "authorizer": "Regents",
+        "instit_id": "800000063974",
+        "sed_code": "343000860952",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.807833,
+          40.713181
+        ]
+      },
+      "properties": {
+        "name": "Growing Up Green Charter School II",
+        "gis_name": "GROWING UP GREEN CHARTER SCHOOL II",
+        "address": "84-35 152ND ST",
+        "city": "JAMAICA",
+        "zip": "11432",
+        "borough": "Queens",
+        "district": "NYC CSD 28",
+        "year_opened": "2016",
+        "authorizer": "Regents",
+        "instit_id": "800000086908",
+        "sed_code": "342800860824",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948308,
+          40.812415
+        ]
+      },
+      "properties": {
+        "name": "Harlem Children's Zone Promise Academy Charter School",
+        "gis_name": "HARLEM CHILDRENS ZONE PROMISE ACADEMY CHARTER SCHOOL",
+        "address": "245 W 129TH ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2004",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000057519",
+        "sed_code": "310500860864",
+        "match_method": "id",
+        "name_ratio": 0.987
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940764,
+          40.805966
+        ]
+      },
+      "properties": {
+        "name": "Harlem Children's Zone Promise Academy II Charter School",
+        "gis_name": "HARLEM CHILDREN'S ZONE PROMISE ACADEMY II CHARTER SCHOOL",
+        "address": "35 E 125TH ST",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2005",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000058981",
+        "sed_code": "310500860886",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950358,
+          40.798256
+        ]
+      },
+      "properties": {
+        "name": "Harlem Link Charter School",
+        "gis_name": "HARLEM LINK CHARTER SCHOOL",
+        "address": "21 W 111TH ST-RM 357",
+        "city": "NEW YORK",
+        "zip": "10026",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058135",
+        "sed_code": "310300860875",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935152,
+          40.8016
+        ]
+      },
+      "properties": {
+        "name": "Harlem Prep Charter School",
+        "gis_name": "HARLEM PREP CHARTER SCHOOL",
+        "address": "240 E 123RD ST-3RD FL",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2001",
+        "authorizer": "SUNY",
+        "instit_id": "800000034143",
+        "sed_code": "310400860840",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933397,
+          40.79919
+        ]
+      },
+      "properties": {
+        "name": "Harlem Village Academy East Charter School",
+        "gis_name": "HARLEM VILLAGE ACADEMY EAST CHARTER SCHOOL",
+        "address": "2351 1ST AVE-4TH FL",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000056181",
+        "sed_code": "310400860849",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940738,
+          40.821333
+        ]
+      },
+      "properties": {
+        "name": "Harlem Village Academy North Charter School",
+        "gis_name": "HARLEM VILLAGE ACADEMY NORTH CHARTER SCHOOL",
+        "address": "244 W 144 ST-4TH FL",
+        "city": "NEW YORK",
+        "zip": "10030",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2003",
+        "authorizer": "SUNY",
+        "instit_id": "800000056180",
+        "sed_code": "310500860848",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945564,
+          40.806824
+        ]
+      },
+      "properties": {
+        "name": "Harlem Village Academy West Charter School",
+        "gis_name": "HARLEM VILLAGE ACADEMY WEST CHARTER SCHOOL",
+        "address": "74 W 124TH ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090259",
+        "sed_code": "310500861149",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.847116,
+          40.845076
+        ]
+      },
+      "properties": {
+        "name": "Haven Charter High School",
+        "gis_name": "HAVEN CHARTER HIGH SCHOOL",
+        "address": "1529 WILLIAMSBRIDGE RD",
+        "city": "BRONX",
+        "zip": "10461",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093170",
+        "sed_code": "321100861200",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913869,
+          40.612531
+        ]
+      },
+      "properties": {
+        "name": "Hebrew Language Academy Charter School",
+        "gis_name": "HEBREW LANGUAGE ACADEMY CHARTER SCHOOL",
+        "address": "2186 MILL AVE",
+        "city": "BROOKLYN",
+        "zip": "11234",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2009",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000064234",
+        "sed_code": "332200860955",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996878,
+          40.595505
+        ]
+      },
+      "properties": {
+        "name": "Hebrew Language Academy Charter School 2",
+        "gis_name": "HEBREW LANGUAGE ACADEMY CHARTER SCHOOL 2",
+        "address": "2286 CROPSEY AVE",
+        "city": "BROOKLYN",
+        "zip": "11214",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 21",
+        "year_opened": "2017",
+        "authorizer": "Regents",
+        "instit_id": "800000089045",
+        "sed_code": "332100861123",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.161874,
+          40.608089
+        ]
+      },
+      "properties": {
+        "name": "Hellenic Classical Charter School - Staten Island",
+        "gis_name": "HELLENIC CLASSICAL CHARTER SCHOOL - STATEN ISLAND",
+        "address": "1641 RICHMOND AVE",
+        "city": "STATEN ISLAND",
+        "zip": "10314",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090834",
+        "sed_code": "353100861175",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992091,
+          40.662851
+        ]
+      },
+      "properties": {
+        "name": "Hellenic Classical Charter School Park Slope",
+        "gis_name": "HELLENIC CLASSICAL CHARTER SCHOOL PARK SLOPE",
+        "address": "646 5TH AVE",
+        "city": "BROOKLYN",
+        "zip": "11215",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2005",
+        "authorizer": "Regents",
+        "instit_id": "800000058308",
+        "sed_code": "331500860878",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89787,
+          40.667807
+        ]
+      },
+      "properties": {
+        "name": "Hyde Leadership Charter School - Brooklyn",
+        "gis_name": "HYDE LEADERSHIP CHARTER SCHOOL - BROOKLYN",
+        "address": "330 ALABAMA AVE",
+        "city": "BROOKLYN",
+        "zip": "11207",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067233",
+        "sed_code": "331900860972",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904892,
+          40.839143
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 1",
+        "gis_name": "ICAHN CHARTER SCHOOL 1",
+        "address": "1525 BROOK AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2001",
+        "authorizer": "SUNY",
+        "instit_id": "800000046301",
+        "sed_code": "320900860835",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858256,
+          40.8451
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 2",
+        "gis_name": "ICAHN CHARTER SCHOOL 2",
+        "address": "1640 BRONXDALE AVE",
+        "city": "BRONX",
+        "zip": "10462",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2007",
+        "authorizer": "SUNY",
+        "instit_id": "800000060418",
+        "sed_code": "321100860909",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843321,
+          40.856919
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 3",
+        "gis_name": "ICAHN CHARTER SCHOOL 3",
+        "address": "1500 PELHAM PKWY S",
+        "city": "BRONX",
+        "zip": "10461",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061091",
+        "sed_code": "321100860917",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843321,
+          40.856919
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 4",
+        "gis_name": "ICAHN CHARTER SCHOOL 4",
+        "address": "1500 PELHAM PKWY SOUTH",
+        "city": "BRONX",
+        "zip": "10461",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063983",
+        "sed_code": "321100860948",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843321,
+          40.856919
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 5",
+        "gis_name": "ICAHN CHARTER SCHOOL 5",
+        "address": "1500 PELHAM PKWY S",
+        "city": "BRONX",
+        "zip": "10461",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000067237",
+        "sed_code": "321100860982",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898203,
+          40.841131
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 6",
+        "gis_name": "ICAHN CHARTER SCHOOL 6",
+        "address": "1701 FULTON AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071154",
+        "sed_code": "320900861029",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877011,
+          40.821979
+        ]
+      },
+      "properties": {
+        "name": "Icahn Charter School 7",
+        "gis_name": "ICAHN CHARTER SCHOOL 7",
+        "address": "1535 STORY AVE",
+        "city": "BRONX",
+        "zip": "10473",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000071153",
+        "sed_code": "320800861030",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907771,
+          40.67865
+        ]
+      },
+      "properties": {
+        "name": "Imagine Me Leadership Charter School",
+        "gis_name": "IMAGINE ME LEADERSHIP CHARTER SCHOOL",
+        "address": "39 TRUXTON ST",
+        "city": "BROOKLYN",
+        "zip": "11233",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 19",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067234",
+        "sed_code": "332300860973",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942158,
+          40.785292
+        ]
+      },
+      "properties": {
+        "name": "Innovation Charter High School",
+        "gis_name": "INNOVATION CHARTER HIGH SCHOOL",
+        "address": "410 E 100TH ST-2ND FL",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067032",
+        "sed_code": "310400860968",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909391,
+          40.881029
+        ]
+      },
+      "properties": {
+        "name": "International Leadership Charter  High School",
+        "gis_name": "INTERNATIONAL LEADERSHIP CHARTER  HIGH SCHOOL",
+        "address": "3030 RIVERDALE AVE",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059326",
+        "sed_code": "321000860904",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918461,
+          40.865428
+        ]
+      },
+      "properties": {
+        "name": "Inwood Academy for Leadership Charter School",
+        "gis_name": "INWOOD ACADEMY FOR LEADERSHIP CHARTER SCHOOL",
+        "address": "3896 10TH AVE",
+        "city": "NEW YORK",
+        "zip": "10034",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067014",
+        "sed_code": "310600860966",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922572,
+          40.643823
+        ]
+      },
+      "properties": {
+        "name": "Ivy Hill Preparatory Charter School",
+        "gis_name": "IVY HILL PREPARATORY CHARTER SCHOOL",
+        "address": "475 E 57TH ST",
+        "city": "BROOKLYN",
+        "zip": "11203",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090255",
+        "sed_code": "331800861146",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.016012,
+          40.705151
+        ]
+      },
+      "properties": {
+        "name": "John V Lindsay Wildcat Academy Charter School",
+        "gis_name": "JOHN V LINDSAY WILDCAT ACADEMY CHARTER SCHOOL",
+        "address": "17 BATTERY PL",
+        "city": "NEW YORK",
+        "zip": "10004",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2000",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000047608",
+        "sed_code": "310200860819",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.179409,
+          40.605394
+        ]
+      },
+      "properties": {
+        "name": "John W Lavelle Preparatory Charter School",
+        "gis_name": "JOHN W LAVELLE PREPARATORY CHARTER SCHOOL",
+        "address": "1 CORPORATE COMMONS-1 TELEPORT DR",
+        "city": "STATEN ISLAND",
+        "zip": "10311",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2009",
+        "authorizer": "Regents",
+        "instit_id": "800000064491",
+        "sed_code": "353100860959",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921032,
+          40.822871
+        ]
+      },
+      "properties": {
+        "name": "KIPP Academy Charter School",
+        "gis_name": "KIPP ACADEMY CHARTER SCHOOL",
+        "address": "250 E 156TH ST-4TH FL",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2000",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000034168",
+        "sed_code": "320700860820",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93726,
+          40.672588
+        ]
+      },
+      "properties": {
+        "name": "KIPP Always Mentally Prepared Charter School",
+        "gis_name": "KIPP ALWAYS MENTALLY PREPARED CHARTER SCHOOL",
+        "address": "1224 PARK PL-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11213",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058839",
+        "sed_code": "331700860882",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960784,
+          40.810997
+        ]
+      },
+      "properties": {
+        "name": "KIPP Beyond Charter School",
+        "gis_name": "KIPP BEYOND CHARTER SCHOOL",
+        "address": "533 W 121ST ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2021",
+        "authorizer": "SUNY",
+        "instit_id": "800000091168",
+        "sed_code": "310300861180",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896151,
+          40.868659
+        ]
+      },
+      "properties": {
+        "name": "KIPP Bronx Charter School II",
+        "gis_name": "KIPP BRONX CHARTER SCHOOL II",
+        "address": "2720 JEROME AVE",
+        "city": "BRONX",
+        "zip": "10468",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090260",
+        "sed_code": "321000861150",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91737,
+          40.843238
+        ]
+      },
+      "properties": {
+        "name": "KIPP Bronx Charter School III",
+        "gis_name": "KIPP BRONX CHARTER SCHOOL III",
+        "address": "1504 MACOMBS RD",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090261",
+        "sed_code": "320900861151",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903972,
+          40.857887
+        ]
+      },
+      "properties": {
+        "name": "KIPP Freedom Charter School",
+        "gis_name": "KIPP FREEDOM CHARTER SCHOOL",
+        "address": "2246 JEROME AVE",
+        "city": "BRONX",
+        "zip": "10453",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089926",
+        "sed_code": "321000861135",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957197,
+          40.819427
+        ]
+      },
+      "properties": {
+        "name": "KIPP Infinity Charter School",
+        "gis_name": "KIPP INFINITY CHARTER SCHOOL",
+        "address": "625 W 133 ST-RM 308D",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058367",
+        "sed_code": "310500860883",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935916,
+          40.839444
+        ]
+      },
+      "properties": {
+        "name": "KIPP NYC Washington Heights Academy Charter School",
+        "gis_name": "KIPP NYC WASHINGTON HEIGHTS ACADEMY CHARTER SCHOOL",
+        "address": "21 JUMEL PL-RM D109",
+        "city": "NEW YORK",
+        "zip": "10032",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071076",
+        "sed_code": "310600861013",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957197,
+          40.819427
+        ]
+      },
+      "properties": {
+        "name": "KIPP STAR College Prep Charter School",
+        "gis_name": "KIPP STAR COLLEGE PREP CHARTER SCHOOL",
+        "address": "625 WEST 133RD ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2003",
+        "authorizer": "SUNY",
+        "instit_id": "800000056596",
+        "sed_code": "310500860858",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953978,
+          40.650415
+        ]
+      },
+      "properties": {
+        "name": "Kwenda Collegiate Girls Charter School",
+        "gis_name": "KWENDA COLLEGIATE GIRLS CHARTER SCHOOL",
+        "address": "2520 CHURCH AVE",
+        "city": "BROOKLYN",
+        "zip": "11226",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093169",
+        "sed_code": "331700861199",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932455,
+          40.688198
+        ]
+      },
+      "properties": {
+        "name": "La Cima Charter School",
+        "gis_name": "LA CIMA CHARTER SCHOOL",
+        "address": "800 GATES AVE",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2008",
+        "authorizer": "Regents",
+        "instit_id": "800000061085",
+        "sed_code": "331600860924",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922658,
+          40.659199
+        ]
+      },
+      "properties": {
+        "name": "Lamad Academy Charter School",
+        "gis_name": "LAMAD ACADEMY CHARTER SCHOOL",
+        "address": "1060 CLARKSON AVE-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000090792",
+        "sed_code": "331800861168",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922658,
+          40.659199
+        ]
+      },
+      "properties": {
+        "name": "Lamad Averne Academy Charter School",
+        "gis_name": "LAMAD ARVERNE ACADEMY CHARTER SCHOOL",
+        "address": "1060 CLARKSON AVE, 4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093525",
+        "sed_code": "342700861202",
+        "match_method": "id",
+        "name_ratio": 0.976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934957,
+          40.675895
+        ]
+      },
+      "properties": {
+        "name": "Launch Expeditionary Learning Charter School",
+        "gis_name": "LAUNCH EXPEDITIONARY LEARNING CHARTER SCHOOL",
+        "address": "1580 DEAN ST-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11213",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000070180",
+        "sed_code": "331600861003",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885564,
+          40.815465
+        ]
+      },
+      "properties": {
+        "name": "Leaders  in Our Neighborhood Charter School",
+        "gis_name": "LEADERS IN OUR NEIGHBORHOOD CHARTER SCHOOL",
+        "address": "730 BRYANT AVE",
+        "city": "BRONX",
+        "zip": "10474",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059325",
+        "sed_code": "320800860903",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01237,
+          40.642941
+        ]
+      },
+      "properties": {
+        "name": "LEEP Dual Language Academy Charter School",
+        "gis_name": "LEEP DUAL LANGUAGE ACADEMY CHARTER SCHOOL",
+        "address": "5323 5TH AVE - 2ND FL",
+        "city": "BROOKLYN",
+        "zip": "11220",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090723",
+        "sed_code": "331500861158",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919268,
+          40.813252
+        ]
+      },
+      "properties": {
+        "name": "Legacy College Preparatory Charter School",
+        "gis_name": "LEGACY COLLEGE PREPARATORY CHARTER SCHOOL",
+        "address": "400 E 145TH ST",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000088148",
+        "sed_code": "320700861114",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984218,
+          40.718515
+        ]
+      },
+      "properties": {
+        "name": "Manhattan Charter School",
+        "gis_name": "MANHATTAN CHARTER SCHOOL",
+        "address": "100 ATTORNEY ST",
+        "city": "NEW YORK",
+        "zip": "10002",
+        "borough": "Manhattan",
+        "district": "NYC CSD 1",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000057944",
+        "sed_code": "310100860873",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915175,
+          40.695508
+        ]
+      },
+      "properties": {
+        "name": "Math, Engineering and Science Academy Charter High School",
+        "gis_name": "MATH, ENGINEERING AND SCIENCE ACADEMY CHARTER HIGH SCHOOL",
+        "address": "231 PALMETTO ST-FL 3-RM 327A",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 32",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000076137",
+        "sed_code": "333200861059",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001854,
+          40.627868
+        ]
+      },
+      "properties": {
+        "name": "Math, Engineering, and Science Academy Charter High School 2",
+        "gis_name": "MATH, ENGINEERING, AND SCIENCE ACADEMY CHARTER HIGH SCHOOL 2",
+        "address": "1222 63RD ST",
+        "city": "BROOKLYN",
+        "zip": "11219",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 20",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093171",
+        "sed_code": "332000861201",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.747879,
+          40.678755
+        ]
+      },
+      "properties": {
+        "name": "Merrick Academy-Queens Public Charter School",
+        "gis_name": "MERRICK ACADEMY-QUEENS PUBLIC CHARTER SCHOOL",
+        "address": "22106 MERRICK BLVD",
+        "city": "LAURELTON",
+        "zip": "11413",
+        "borough": "Queens",
+        "district": "NYC CSD 29",
+        "year_opened": "2000",
+        "authorizer": "SUNY",
+        "instit_id": "800000042390",
+        "sed_code": "342900860821",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900612,
+          40.71271
+        ]
+      },
+      "properties": {
+        "name": "Middle Village Preparatory Charter School",
+        "gis_name": "MIDDLE VILLAGE PREPARATORY CHARTER SCHOOL",
+        "address": "6802 METROPOLITAN AVE",
+        "city": "MIDDLE VILLAGE",
+        "zip": "11379",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000076138",
+        "sed_code": "342400861048",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902274,
+          40.83108
+        ]
+      },
+      "properties": {
+        "name": "Mott Hall Charter School",
+        "gis_name": "MOTT HALL CHARTER SCHOOL",
+        "address": "1260 FRANKLIN AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071085",
+        "sed_code": "320900861004",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921029,
+          40.806375
+        ]
+      },
+      "properties": {
+        "name": "Mott Haven Academy Charter School",
+        "gis_name": "MOTT HAVEN ACADEMY CHARTER SCHOOL",
+        "address": "170 BROWN PL",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061086",
+        "sed_code": "320700860925",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945208,
+          40.823614
+        ]
+      },
+      "properties": {
+        "name": "Neighborhood Charter School of Harlem",
+        "gis_name": "NEIGHBORHOOD CHARTER SCHOOL OF HARLEM",
+        "address": "691 ST NICHOLAS AVE",
+        "city": "NEW YORK",
+        "zip": "10031",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071078",
+        "sed_code": "310600861015",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90871,
+          40.809178
+        ]
+      },
+      "properties": {
+        "name": "Neighborhood Charter School-Bronx",
+        "gis_name": "NEIGHBORHOOD CHARTER SCHOOL-BRONX",
+        "address": "411 WALES AVE",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000089928",
+        "sed_code": "320700861137",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913939,
+          40.651351
+        ]
+      },
+      "properties": {
+        "name": "New American Academy Charter School (The)",
+        "gis_name": "NEW AMERICAN ACADEMY CHARTER SCHOOL (THE)",
+        "address": "9301 AVE B",
+        "city": "BROOKLYN",
+        "zip": "11236",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000075846",
+        "sed_code": "331800861057",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990382,
+          40.682966
+        ]
+      },
+      "properties": {
+        "name": "New Dawn Charter High School",
+        "gis_name": "NEW DAWN CHARTER HIGH SCHOOL",
+        "address": "242 HOYT ST",
+        "city": "BROOKLYN",
+        "zip": "11217",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071079",
+        "sed_code": "331500861016",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.799469,
+          40.705902
+        ]
+      },
+      "properties": {
+        "name": "New Dawn Charter High School II",
+        "gis_name": "NEW DAWN CHARTER HIGH SCHOOL II",
+        "address": "89-25 161ST ST",
+        "city": "JAMAICA",
+        "zip": "11432",
+        "borough": "Queens",
+        "district": "NYC CSD 28",
+        "year_opened": "2019",
+        "authorizer": "Regents",
+        "instit_id": "800000090257",
+        "sed_code": "342800861147",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94539,
+          40.828586
+        ]
+      },
+      "properties": {
+        "name": "New Heights Academy Charter School",
+        "gis_name": "NEW HEIGHTS ACADEMY CHARTER SCHOOL",
+        "address": "1818 AMSTERDAM AVE",
+        "city": "NEW YORK",
+        "zip": "10031",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2006",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000059088",
+        "sed_code": "310600860887",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.180858,
+          40.604549
+        ]
+      },
+      "properties": {
+        "name": "New Ventures Charter School",
+        "gis_name": "NEW VENTURES CHARTER SCHOOL",
+        "address": "1441 SOUTH AVE-CORPORATE COMMONS 4TH FL",
+        "city": "STATEN ISLAND",
+        "zip": "10314",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000084244",
+        "sed_code": "353100861083",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.136903,
+          40.639554
+        ]
+      },
+      "properties": {
+        "name": "New World Preparatory Charter School",
+        "gis_name": "NEW WORLD PREPARATORY CHARTER SCHOOL",
+        "address": "26 SHARPE AVE",
+        "city": "STATEN ISLAND",
+        "zip": "10302",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067673",
+        "sed_code": "353100860984",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91075,
+          40.821888
+        ]
+      },
+      "properties": {
+        "name": "New York City Charter High School for Architecture, Engineering & Construction Industries",
+        "gis_name": "NEW YORK CITY CHARTER HIGH SCHOOL FOR ARCHITECTURE ENGINEERING & CONSTRUCTION INDUSTRIES",
+        "address": "838 BROOK AVE",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2008",
+        "authorizer": "Regents",
+        "instit_id": "800000061087",
+        "sed_code": "320700860926",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002525,
+          40.707879
+        ]
+      },
+      "properties": {
+        "name": "New York City Charter School of the Arts",
+        "gis_name": "NEW YORK CITY CHARTER SCHOOL OF THE ARTS",
+        "address": "241 WATER ST",
+        "city": "NEW YORK",
+        "zip": "10038",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000086904",
+        "sed_code": "310200861104",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954312,
+          40.807439
+        ]
+      },
+      "properties": {
+        "name": "New York French-American Charter School",
+        "gis_name": "NEW YORK FRENCH-AMERICAN CHARTER SCHOOL",
+        "address": "311 W 120TH ST",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067011",
+        "sed_code": "310300860963",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930134,
+          40.834414
+        ]
+      },
+      "properties": {
+        "name": "Next Generation Charter School",
+        "gis_name": "NEXT GENERATION CHARTER SCHOOL",
+        "address": "180 W 165TH ST",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2026",
+        "authorizer": "SUNY",
+        "instit_id": "800000093526",
+        "sed_code": "321200861203",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948474,
+          40.719781
+        ]
+      },
+      "properties": {
+        "name": "Northside Charter High School",
+        "gis_name": "NORTHSIDE CHARTER HIGH SCHOOL",
+        "address": "424 LEONARD ST-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11222",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2009",
+        "authorizer": "Regents",
+        "instit_id": "800000063771",
+        "sed_code": "331400860945",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930134,
+          40.834414
+        ]
+      },
+      "properties": {
+        "name": "Nuasin Next Generation Charter School",
+        "gis_name": "NUASIN NEXT GENERATION CHARTER SCHOOL",
+        "address": "180 W 165TH ST",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067031",
+        "sed_code": "320900860962",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900453,
+          40.828723
+        ]
+      },
+      "properties": {
+        "name": "NYC Autism Charter School Bronx",
+        "gis_name": "NYC AUTISM CHARTER SCHOOL BRONX",
+        "address": "1180 TINTON AVE",
+        "city": "BRONX",
+        "zip": "10459",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000087932",
+        "sed_code": "321200861108",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94109,
+          40.78542
+        ]
+      },
+      "properties": {
+        "name": "NYC Autism Charter School East Harlem",
+        "gis_name": "NYC AUTISM CHARTER SCHOOL EAST HARLEM",
+        "address": "433 E 100TH ST",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058980",
+        "sed_code": "310400861061",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955085,
+          40.801659
+        ]
+      },
+      "properties": {
+        "name": "Opportunity Charter School",
+        "gis_name": "OPPORTUNITY CHARTER SCHOOL",
+        "address": "240 W 113TH ST-4TH FL",
+        "city": "NEW YORK",
+        "zip": "10026",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2004",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000057639",
+        "sed_code": "310300860871",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924035,
+          40.755903
+        ]
+      },
+      "properties": {
+        "name": "Our World Neighborhood Charter School",
+        "gis_name": "OUR WORLD NEIGHBORHOOD CHARTER SCHOOL",
+        "address": "36-12 35TH AVE",
+        "city": "ASTORIA",
+        "zip": "11106",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2002",
+        "authorizer": "SUNY",
+        "instit_id": "800000042203",
+        "sed_code": "343000860836",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.855855,
+          40.671201
+        ]
+      },
+      "properties": {
+        "name": "Our World Neighborhood Charter School 2",
+        "gis_name": "OUR WORLD NEIGHBORHOOD CHARTER SCHOOL 2",
+        "address": "135-25 79TH ST",
+        "city": "HOWARD BEACH",
+        "zip": "11414",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000088151",
+        "sed_code": "342700861118",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.856179,
+          40.751337
+        ]
+      },
+      "properties": {
+        "name": "Our World Neighborhood Charter School 3",
+        "gis_name": "OUR WORLD NEIGHBORHOOD CHARTER SCHOOL 3",
+        "address": "108-68 ROOSEVELT AVE",
+        "city": "CORONA",
+        "zip": "11368",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2022",
+        "authorizer": "SUNY",
+        "instit_id": "800000090800",
+        "sed_code": "342400861170",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003846,
+          40.675953
+        ]
+      },
+      "properties": {
+        "name": "Pave Academy Charter School",
+        "gis_name": "PAVE ACADEMY CHARTER SCHOOL",
+        "address": "732 HENRY ST",
+        "city": "BROOKLYN",
+        "zip": "11231",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061098",
+        "sed_code": "331500860927",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.752293,
+          40.601085
+        ]
+      },
+      "properties": {
+        "name": "Peninsula Preparatory Academy Charter School",
+        "gis_name": "PENINSULA PREPARATORY ACADEMY CHARTER SCHOOL",
+        "address": "611 BEACH 19TH ST",
+        "city": "FAR ROCKAWAY",
+        "zip": "11691",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2004",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000057613",
+        "sed_code": "342700860869",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897068,
+          40.823231
+        ]
+      },
+      "properties": {
+        "name": "Pharos Academy Charter School",
+        "gis_name": "PHAROS ACADEMY CHARTER SCHOOL",
+        "address": "1001 INTERVALE AVE",
+        "city": "BRONX",
+        "zip": "10459",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2004",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000057638",
+        "sed_code": "321200860870",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884803,
+          40.749927
+        ]
+      },
+      "properties": {
+        "name": "Renaissance Charter School",
+        "gis_name": "RENAISSANCE CHARTER SCHOOL",
+        "address": "35-59 81ST ST",
+        "city": "JACKSON HEIGHTS",
+        "zip": "11372",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2000",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000042221",
+        "sed_code": "343000860822",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881613,
+          40.741021
+        ]
+      },
+      "properties": {
+        "name": "Renaissance Charter School 2 (The)",
+        "gis_name": "RENAISSANCE CHARTER SCHOOL 2 (THE)",
+        "address": "45-20 83RD ST",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2020",
+        "authorizer": "Regents",
+        "instit_id": "800000089571",
+        "sed_code": "342400861128",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.162796,
+          40.592219
+        ]
+      },
+      "properties": {
+        "name": "Richmond Preparatory Charter School",
+        "gis_name": "RICHMOND PREPARATORY CHARTER SCHOOL",
+        "address": "2245 RICHMOND AVE",
+        "city": "STATEN ISLAND",
+        "zip": "10314",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2021",
+        "authorizer": "Regents",
+        "instit_id": "800000090258",
+        "sed_code": "353100861148",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.763558,
+          40.689308
+        ]
+      },
+      "properties": {
+        "name": "Riverton Street Charter School",
+        "gis_name": "RIVERTON STREET CHARTER SCHOOL",
+        "address": "118-34 RIVERTON ST",
+        "city": "SAINT ALBANS",
+        "zip": "11412",
+        "borough": "Queens",
+        "district": "NYC CSD 29",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067235",
+        "sed_code": "342900860974",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.778391,
+          40.679807
+        ]
+      },
+      "properties": {
+        "name": "Rochdale Early Advantage Charter School",
+        "gis_name": "ROCHDALE EARLY ADVANTAGE CHARTER SCHOOL",
+        "address": "122-05 SMITH ST",
+        "city": "JAMAICA",
+        "zip": "11434",
+        "borough": "Queens",
+        "district": "NYC CSD 28",
+        "year_opened": "2010",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000067015",
+        "sed_code": "342800860969",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926067,
+          40.82051
+        ]
+      },
+      "properties": {
+        "name": "Rosalyn Yalow Charter School",
+        "gis_name": "ROSALYN YALOW CHARTER SCHOOL",
+        "address": "650 GRAND CONCOURSE",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000083429",
+        "sed_code": "320700861073",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936028,
+          40.848745
+        ]
+      },
+      "properties": {
+        "name": "School  in the Square Public Charter School",
+        "gis_name": "SCHOOL IN THE SQUARE PUBLIC CHARTER SCHOOL",
+        "address": "120 WADSWORTH AVE",
+        "city": "NEW YORK",
+        "zip": "10033",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2016",
+        "authorizer": "Regents",
+        "instit_id": "800000086906",
+        "sed_code": "310600861101",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952726,
+          40.81574
+        ]
+      },
+      "properties": {
+        "name": "Sisulu-Walker Charter School of Harlem",
+        "gis_name": "SISULU-WALKER CHARTER SCHOOL OF HARLEM",
+        "address": "71-111 CONVENT AVE",
+        "city": "NEW YORK",
+        "zip": "10027",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "1999",
+        "authorizer": "SUNY",
+        "instit_id": "800000047050",
+        "sed_code": "310500860804",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916313,
+          40.807435
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Charter School for International Cultures and the Arts",
+        "gis_name": "SOUTH BRONX CHARTER SCHOOL FOR INTERNATIONAL CULTURES AND THE ARTS",
+        "address": "164 BRUCKNER BLVD",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2005",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000058885",
+        "sed_code": "320700860889",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89404,
+          40.822092
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL",
+        "address": "977 FOX ST",
+        "city": "BRONX",
+        "zip": "10459",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2006",
+        "authorizer": "Regents",
+        "instit_id": "800000059317",
+        "sed_code": "321200860898",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925843,
+          40.80806
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School II",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL II",
+        "address": "333 E 135TH ST",
+        "city": "BRONX",
+        "zip": "10454",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000074677",
+        "sed_code": "320700861035",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906386,
+          40.829504
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School III",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL III",
+        "address": "3458 THIRD AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000084246",
+        "sed_code": "320900861084",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923232,
+          40.823762
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School IV",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL IV",
+        "address": "757 CONCOURSE VILLAGE WEST",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2017",
+        "authorizer": "Regents",
+        "instit_id": "800000089044",
+        "sed_code": "320700861122",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893779,
+          40.88274
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School V",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL V",
+        "address": "3880 SEDGWICK AVE",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093527",
+        "sed_code": "321000861204",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89404,
+          40.822092
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Classical Charter School VI",
+        "gis_name": "SOUTH BRONX CLASSICAL CHARTER SCHOOL VI",
+        "address": "977 FOX ST",
+        "city": "BRONX",
+        "zip": "10459",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2025",
+        "authorizer": "Regents",
+        "instit_id": "800000089929",
+        "sed_code": "320900861138",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908119,
+          40.828836
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Community Charter High School",
+        "gis_name": "SOUTH BRONX COMMUNITY CHARTER HIGH SCHOOL",
+        "address": "1110 WASHINGTON AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2016",
+        "authorizer": "Regents",
+        "instit_id": "800000086907",
+        "sed_code": "320900861100",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904428,
+          40.818102
+        ]
+      },
+      "properties": {
+        "name": "South Bronx Early College Academy Charter School",
+        "gis_name": "SOUTH BRONX EARLY COLLEGE ACADEMY CHARTER SCHOOL",
+        "address": "766 WESTCHESTER AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000082489",
+        "sed_code": "320800861068",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945693,
+          40.815164
+        ]
+      },
+      "properties": {
+        "name": "St. Hope Leadership Academy Charter School",
+        "gis_name": "ST. HOPE LEADERSHIP ACADEMY CHARTER SCHOOL",
+        "address": "222 W 134TH ST-RM 111",
+        "city": "NEW YORK",
+        "zip": "10030",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061088",
+        "sed_code": "310500860928",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.083378,
+          40.575785
+        ]
+      },
+      "properties": {
+        "name": "Staten Island Hebrew Public Charter School",
+        "gis_name": "STATEN ISLAND HEBREW PUBLIC CHARTER SCHOOL",
+        "address": "829 FATHER CAPODANNO BLVD",
+        "city": "STATEN ISLAND",
+        "zip": "10305",
+        "borough": "Staten Island",
+        "district": "NYC CSD 31",
+        "year_opened": "2022",
+        "authorizer": "Regents",
+        "instit_id": "800000090726",
+        "sed_code": "353100861159",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908631,
+          40.814924
+        ]
+      },
+      "properties": {
+        "name": "Storefront Academy Charter School",
+        "gis_name": "STOREFRONT ACADEMY CHARTER SCHOOL",
+        "address": "609 JACKSON AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2015",
+        "authorizer": "SUNY",
+        "instit_id": "800000084245",
+        "sed_code": "320700861080",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934323,
+          40.794791
+        ]
+      },
+      "properties": {
+        "name": "Storefront Academy Harlem Charter School",
+        "gis_name": "STOREFRONT ACADEMY HARLEM CHARTER SCHOOL",
+        "address": "445 E 115TH ST",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090802",
+        "sed_code": "310400861171",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94681,
+          40.696973
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Bed Stuy 1",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - BED STUY 1",
+        "address": "70 TOMPKINS AVE-2ND FL",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070173",
+        "sed_code": "331400861007",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984908,
+          40.607734
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Bensonhurst",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - BENSONHURST",
+        "address": "99 AVE P-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11204",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 21",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082605",
+        "sed_code": "332100861075",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912838,
+          40.620931
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Bergen Beach",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - BERGEN BEACH",
+        "address": "1420 E 68TH ST-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11234",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082606",
+        "sed_code": "332200861076",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.859808,
+          40.823508
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Bronx 4",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - BRONX 4",
+        "address": "885 BOLTON AVE-3RD FL",
+        "city": "BRONX",
+        "zip": "10473",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082604",
+        "sed_code": "320800861074",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877526,
+          40.875464
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Norwood",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - NORWOOD",
+        "address": "268 EAST 207TH ST",
+        "city": "BRONX",
+        "zip": "10467",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000084527",
+        "sed_code": "321000861088",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986695,
+          40.7041
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School \u2013 NYC 15",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 15",
+        "address": "20 JAY ST-STE 504",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000074916",
+        "sed_code": "331700861038",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873295,
+          40.684388
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - NYC 17",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - NYC 17",
+        "address": "95 PINE ST, FL 6",
+        "city": "NEW YORK",
+        "zip": "10005",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2026",
+        "authorizer": "SUNY",
+        "instit_id": "800000093528",
+        "sed_code": "321000861205",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873295,
+          40.684388
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - NYC 18",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - NYC 18",
+        "address": "95 PINE ST, FL 6",
+        "city": "NEW YORK",
+        "zip": "10005",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2026",
+        "authorizer": "SUNY",
+        "instit_id": "800000093529",
+        "sed_code": "321000861206",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.738281,
+          40.655523
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Rosedale",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - ROSEDALE",
+        "address": "147-65 249TH ST",
+        "city": "ROSEDALE",
+        "zip": "11422",
+        "borough": "Queens",
+        "district": "NYC CSD 29",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082607",
+        "sed_code": "342900861077",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937396,
+          40.594014
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Sheepshead Bay",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - SHEEPSHEAD BAY",
+        "address": "3000 AVE X",
+        "city": "BROOKLYN",
+        "zip": "11235",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075833",
+        "sed_code": "332200861039",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.753074,
+          40.681989
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Springfield Gardens",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - SPRINGFIELD GARDENS",
+        "address": "132-55 RIDGEDALE ST-3RD FL",
+        "city": "SPRINGFIELD GARDENS",
+        "zip": "11413",
+        "borough": "Queens",
+        "district": "NYC CSD 29",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082608",
+        "sed_code": "342900861078",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935376,
+          40.857845
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School - Washington Heights",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL - WASHINGTON HEIGHTS",
+        "address": "701 FORT WASHINGTON AVE",
+        "city": "NEW YORK",
+        "zip": "10040",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2014",
+        "authorizer": "SUNY",
+        "instit_id": "800000082603",
+        "sed_code": "310600861073",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943655,
+          40.697855
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bed Stuy 2",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BED STUY 2",
+        "address": "211 THROOP AVE-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071157",
+        "sed_code": "331400861022",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.899276,
+          40.710661
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bed Stuy 3",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BED STUY 3",
+        "address": "63-57 FRESH POND RD",
+        "city": "RIDGEWOOD",
+        "zip": "11385",
+        "borough": "Queens",
+        "district": "NYC CSD 16",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084534",
+        "sed_code": "342400861095",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925758,
+          40.813368
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bronx 1",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BRONX 1",
+        "address": "339 MORRIS AVE-2ND FL",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000068332",
+        "sed_code": "320700860981",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904561,
+          40.836143
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bronx 2",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BRONX 2",
+        "address": "450 ST PAUL'S PL-5TH FL",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000068333",
+        "sed_code": "320900860980",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914177,
+          40.8279
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bronx 3",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BRONX 3",
+        "address": "1000 TELLER AVE, 3RD FL",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075838",
+        "sed_code": "320800861044",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929072,
+          40.820679
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bronx 5 Upper",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BRONX 5 UPPER",
+        "address": "101 E 150TH ST",
+        "city": "BRONX",
+        "zip": "10451",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2022",
+        "authorizer": "SUNY",
+        "instit_id": "800000084536",
+        "sed_code": "320700861097",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919382,
+          40.695988
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Bushwick",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-BUSHWICK",
+        "address": "139 MENAHAN ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 32",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084535",
+        "sed_code": "333200861096",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993337,
+          40.685326
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Cobble Hill",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-COBBLE HILL",
+        "address": "284 BALTIC ST-LOWER LEVEL",
+        "city": "BROOKLYN",
+        "zip": "11201",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071158",
+        "sed_code": "331500861023",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949216,
+          40.666046
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Crown Heights",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-CROWN HEIGHTS",
+        "address": "330 CROWN ST-5TH FL",
+        "city": "BROOKLYN",
+        "zip": "11225",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075835",
+        "sed_code": "331700861041",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.749455,
+          40.603983
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Far Rockaway",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-FAR ROCKAWAY",
+        "address": "10-45 NAMEOKE ST-3RD FL",
+        "city": "FAR ROCKAWAY",
+        "zip": "11691",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084529",
+        "sed_code": "342700861090",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957496,
+          40.648674
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Flatbush",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-FLATBUSH",
+        "address": "15 SNYDER AVE",
+        "city": "BROOKLYN",
+        "zip": "11226",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084533",
+        "sed_code": "331700861094",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948256,
+          40.803021
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Harlem 1",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HARLEM 1",
+        "address": "34 W 118TH ST-2ND FL",
+        "city": "NEW YORK",
+        "zip": "10026",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059316",
+        "sed_code": "310300860897",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935228,
+          40.805855
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Harlem 2",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HARLEM 2",
+        "address": "144 E 128TH ST-3RD FL",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061092",
+        "sed_code": "310500860921",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942158,
+          40.785292
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Harlem 3",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HARLEM 3",
+        "address": "410 E 100TH ST-4TH FL",
+        "city": "NEW YORK",
+        "zip": "10029",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061084",
+        "sed_code": "310400860922",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955085,
+          40.801659
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Harlem 4",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HARLEM 4",
+        "address": "240 W 113TH ST-3RD FL",
+        "city": "NEW YORK",
+        "zip": "10026",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061093",
+        "sed_code": "310300860923",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944665,
+          40.81997
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Harlem 5",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HARLEM 5",
+        "address": "301 W 140TH ST-3RD FL",
+        "city": "NEW YORK",
+        "zip": "10030",
+        "borough": "Manhattan",
+        "district": "NYC CSD 5",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000067671",
+        "sed_code": "310500860979",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990852,
+          40.76359
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Hell's Kitchen",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HELL'S KITCHEN",
+        "address": "439 W 49TH ST-2ND FL",
+        "city": "NEW YORK",
+        "zip": "10019",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075837",
+        "sed_code": "310200861043",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996288,
+          40.759009
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Hudson Yards",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-HUDSON YARDS",
+        "address": "500 W 41ST ST",
+        "city": "NEW YORK",
+        "zip": "10036",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2017",
+        "authorizer": "SUNY",
+        "instit_id": "800000084526",
+        "sed_code": "310200861087",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.851007,
+          40.829073
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-NYC 12",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 12",
+        "address": "2169 BLACKROCK AVE",
+        "city": "BRONX",
+        "zip": "10472",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000084537",
+        "sed_code": "320800861098",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832983,
+          40.661358
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-NYC 14",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 14",
+        "address": "158-20 101ST ST",
+        "city": "HOWARD BEACH",
+        "zip": "11414",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000084539",
+        "sed_code": "342700861100",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863738,
+          40.876364
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-NYC 5",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 5",
+        "address": "760 EAST GUN HILL RD",
+        "city": "BRONX",
+        "zip": "10467",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000084530",
+        "sed_code": "321100861091",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863738,
+          40.876364
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-NYC 6",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 6",
+        "address": "760 EAST GUN HILL RD",
+        "city": "BRONX",
+        "zip": "10467",
+        "borough": "Bronx",
+        "district": "NYC CSD 11",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000084531",
+        "sed_code": "321100861092",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901602,
+          40.869226
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-NYC 7",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-NYC 7",
+        "address": "124 EAMES PL",
+        "city": "BRONX",
+        "zip": "10468",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2024",
+        "authorizer": "SUNY",
+        "instit_id": "800000084532",
+        "sed_code": "321000861093",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95138,
+          40.673652
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Prospect Heights",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-PROSPECT HEIGHTS",
+        "address": "801 PARK PL-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11216",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 17",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075834",
+        "sed_code": "331700861040",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.799767,
+          40.675617
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-South Jamaica",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-SOUTH JAMAICA",
+        "address": "120-27 141ST ST",
+        "city": "JAMAICA",
+        "zip": "11436",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2016",
+        "authorizer": "SUNY",
+        "instit_id": "800000084538",
+        "sed_code": "342700861099",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987451,
+          40.735548
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Union Square",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-UNION SQUARE",
+        "address": "40 IRVING PL-2ND FL",
+        "city": "NEW YORK",
+        "zip": "10003",
+        "borough": "Manhattan",
+        "district": "NYC CSD 2",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000075836",
+        "sed_code": "310200861042",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974204,
+          40.785752
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Upper West",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-UPPER WEST",
+        "address": "145 W 84TH ST-2ND FL",
+        "city": "NEW YORK",
+        "zip": "10024",
+        "borough": "Manhattan",
+        "district": "NYC CSD 3",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070184",
+        "sed_code": "310300861008",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959832,
+          40.711761
+        ]
+      },
+      "properties": {
+        "name": "Success Academy Charter School-Williamsburg",
+        "gis_name": "SUCCESS ACADEMY CHARTER SCHOOL-WILLIAMSBURG",
+        "address": "183 S 3RD ST-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11211",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000071160",
+        "sed_code": "331400861024",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005115,
+          40.677652
+        ]
+      },
+      "properties": {
+        "name": "Summit Academy Charter School",
+        "gis_name": "SUMMIT ACADEMY CHARTER SCHOOL",
+        "address": "27 HUNTINGTON ST",
+        "city": "BROOKLYN",
+        "zip": "11231",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 15",
+        "year_opened": "2009",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000064232",
+        "sed_code": "331500860953",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932455,
+          40.688198
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Bed-Stuy East Charter School NYC",
+        "gis_name": "UNCOMMON BED-STUY EAST CHARTER SCHOOL NYC",
+        "address": "800 GATES AVE-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061081",
+        "sed_code": "331600860918",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945976,
+          40.681806
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Bed-Stuy West Charter School NYC",
+        "gis_name": "UNCOMMON BED-STUY WEST CHARTER SCHOOL NYC",
+        "address": "141 MACON ST-1ST FL",
+        "city": "BROOKLYN",
+        "zip": "11216",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2006",
+        "authorizer": "SUNY",
+        "instit_id": "800000059311",
+        "sed_code": "331300860901",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906327,
+          40.672123
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Brownsville North Charter School NYC",
+        "gis_name": "UNCOMMON BROWNSVILLE NORTH CHARTER SCHOOL NYC",
+        "address": "51 CHRISTOPHER AVE",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000063980",
+        "sed_code": "332300860941",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906992,
+          40.655729
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Brownsville South Charter School NYC",
+        "gis_name": "UNCOMMON BROWNSVILLE SOUTH CHARTER SCHOOL NYC",
+        "address": "985 ROCKAWAY AVE-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11212",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000063981",
+        "sed_code": "332300860942",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892082,
+          40.643884
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Canarsie Charter School NYC",
+        "gis_name": "UNCOMMON CANARSIE CHARTER SCHOOL NYC",
+        "address": "1070 E 104TH ST",
+        "city": "BROOKLYN",
+        "zip": "11236",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2013",
+        "authorizer": "SUNY",
+        "instit_id": "800000063982",
+        "sed_code": "331800860943",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915732,
+          40.677932
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Crown Heights Charter School NYC",
+        "gis_name": "UNCOMMON CROWN HEIGHTS CHARTER SCHOOL NYC",
+        "address": "1137 HERKIMER ST-2ND FL",
+        "city": "BROOKLYN",
+        "zip": "11233",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 23",
+        "year_opened": "2010",
+        "authorizer": "SUNY",
+        "instit_id": "800000063977",
+        "sed_code": "332300860936",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926015,
+          40.68343
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Excellence Boys Charter School NYC",
+        "gis_name": "UNCOMMON EXCELLENCE BOYS CHARTER SCHOOL NYC",
+        "address": "225 PATCHEN AVE",
+        "city": "BROOKLYN",
+        "zip": "11233",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2004",
+        "authorizer": "SUNY",
+        "instit_id": "800000056787",
+        "sed_code": "331600860860",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924473,
+          40.688346
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Excellence Girls Charter School NYC",
+        "gis_name": "UNCOMMON EXCELLENCE GIRLS CHARTER SCHOOL NYC",
+        "address": "794 MONROE ST-3RD FL",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 16",
+        "year_opened": "2009",
+        "authorizer": "SUNY",
+        "instit_id": "800000064231",
+        "sed_code": "331600860938",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928572,
+          40.658652
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Kings Charter School NYC",
+        "gis_name": "UNCOMMON KINGS CHARTER SCHOOL NYC",
+        "address": "905 WINTHROP ST",
+        "city": "BROOKLYN",
+        "zip": "11203",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 18",
+        "year_opened": "2007",
+        "authorizer": "SUNY",
+        "instit_id": "800000059786",
+        "sed_code": "331800860908",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942089,
+          40.677361
+        ]
+      },
+      "properties": {
+        "name": "Uncommon New York City Charter School #1",
+        "gis_name": "UNCOMMON NEW YORK CITY CHARTER SCHOOL #1",
+        "address": "1485 PACIFIC ST-RM 306",
+        "city": "BROOKLYN",
+        "zip": "11216",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000088184",
+        "sed_code": "331300861119",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962036,
+          40.705806
+        ]
+      },
+      "properties": {
+        "name": "Uncommon Williamsburg Charter School NYC",
+        "gis_name": "UNCOMMON WILLIAMSBURG CHARTER SCHOOL NYC",
+        "address": "157 WILSON ST-4TH FL",
+        "city": "BROOKLYN",
+        "zip": "11211",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2005",
+        "authorizer": "SUNY",
+        "instit_id": "800000058838",
+        "sed_code": "331400860885",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912579,
+          40.877268
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for Advanced Math and Science",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR ADVANCED MATH AND SCIENCE",
+        "address": "99 TERRACE VIEW AVE-RM 254",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070185",
+        "sed_code": "321000860999",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903188,
+          40.821586
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for Advanced Math and Science II",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR ADVANCED MATH AND SCIENCE II",
+        "address": "900 TINTON AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071080",
+        "sed_code": "320800861017",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937396,
+          40.594014
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for Advanced Math and Science III",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR ADVANCED MATH AND SCIENCE III",
+        "address": "3000 AVE X",
+        "city": "BROOKLYN",
+        "zip": "11235",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000075843",
+        "sed_code": "332200861053",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.783293,
+          40.675176
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for Advanced Math and Science IV",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR ADVANCED MATH AND SCIENCE IV",
+        "address": "156-10 BAISLEY BLVD",
+        "city": "JAMAICA",
+        "zip": "11434",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2015",
+        "authorizer": "Regents",
+        "instit_id": "800000075842",
+        "sed_code": "342700861054",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912579,
+          40.877268
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for the Humanities",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR THE HUMANITIES",
+        "address": "99 TERRACE VIEW AVE-RM 360",
+        "city": "BRONX",
+        "zip": "10463",
+        "borough": "Bronx",
+        "district": "NYC CSD 10",
+        "year_opened": "2011",
+        "authorizer": "SUNY",
+        "instit_id": "800000070186",
+        "sed_code": "321000860704",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903188,
+          40.821586
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for the Humanities II",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR THE HUMANITIES II",
+        "address": "900 TINTON AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000071081",
+        "sed_code": "320800861018",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.822863,
+          40.586297
+        ]
+      },
+      "properties": {
+        "name": "United Charter High School for the Humanities IV",
+        "gis_name": "UNITED CHARTER HIGH SCHOOL FOR THE HUMANITIES IV",
+        "address": "100-00 BEACH CHANNEL DR",
+        "city": "ROCKAWAY PARK",
+        "zip": "11694",
+        "borough": "Queens",
+        "district": "NYC CSD 27",
+        "year_opened": "2017",
+        "authorizer": "Regents",
+        "instit_id": "800000075844",
+        "sed_code": "342700861052",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940985,
+          40.686429
+        ]
+      },
+      "properties": {
+        "name": "Unity Preparatory Charter School of Brooklyn",
+        "gis_name": "UNITY PREPARATORY CHARTER SCHOOL OF BROOKLYN",
+        "address": "432 MONROE ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2013",
+        "authorizer": "Regents",
+        "instit_id": "800000075840",
+        "sed_code": "331300861056",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912293,
+          40.814973
+        ]
+      },
+      "properties": {
+        "name": "University Prep Charter High School",
+        "gis_name": "UNIVERSITY PREP CHARTER HIGH SCHOOL",
+        "address": "600 ST ANNS AVE-4TH FL",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2008",
+        "authorizer": "SUNY",
+        "instit_id": "800000061083",
+        "sed_code": "320700860920",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909657,
+          40.811137
+        ]
+      },
+      "properties": {
+        "name": "University Prep Charter Middle School",
+        "gis_name": "UNIVERSITY PREP CHARTER MIDDLE SCHOOL",
+        "address": "470 JACKSON AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090804",
+        "sed_code": "320700861173",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908311,
+          40.810342
+        ]
+      },
+      "properties": {
+        "name": "Urban Assembly Charter School for Computer Science",
+        "gis_name": "URBAN ASSEMBLY CHARTER SCHOOL FOR COMPUTER SCIENCE",
+        "address": "447 WALES AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000087933",
+        "sed_code": "320700861107",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954904,
+          40.622568
+        ]
+      },
+      "properties": {
+        "name": "Urban Dove Team Charter School",
+        "gis_name": "URBAN DOVE TEAM CHARTER SCHOOL",
+        "address": "1256 E 21ST ST",
+        "city": "BROOKLYN",
+        "zip": "11210",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 22",
+        "year_opened": "2012",
+        "authorizer": "Regents",
+        "instit_id": "800000070188",
+        "sed_code": "332200861006",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903474,
+          40.815638
+        ]
+      },
+      "properties": {
+        "name": "Urban Dove Team Charter School II",
+        "gis_name": "URBAN DOVE TEAM CHARTER SCHOOL II",
+        "address": "671 PROSPECT AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 8",
+        "year_opened": "2018",
+        "authorizer": "Regents",
+        "instit_id": "800000089930",
+        "sed_code": "320800861139",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919316,
+          40.761494
+        ]
+      },
+      "properties": {
+        "name": "Urban Dove Team Charter School III",
+        "gis_name": "URBAN DOVE TEAM CHARTER SCHOOL III",
+        "address": "31-20 37TH ST",
+        "city": "ASTORIA",
+        "zip": "11103",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000070534",
+        "sed_code": "343000861010",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935152,
+          40.8016
+        ]
+      },
+      "properties": {
+        "name": "Urban Dove Team Charter School IV",
+        "gis_name": "URBAN DOVE TEAM CHARTER SCHOOL IV",
+        "address": "240 EAST 123RD ST",
+        "city": "NEW YORK",
+        "zip": "10035",
+        "borough": "Manhattan",
+        "district": "NYC CSD 4",
+        "year_opened": "2012",
+        "authorizer": "SUNY",
+        "instit_id": "800000070533",
+        "sed_code": "310400861007",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926057,
+          40.699913
+        ]
+      },
+      "properties": {
+        "name": "Urban Dove Team Charter School V",
+        "gis_name": "URBAN DOVE TEAM CHARTER SCHOOL V",
+        "address": "181 SUYDAM ST",
+        "city": "BROOKLYN",
+        "zip": "11221",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 13",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093534",
+        "sed_code": "333200861210",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858537,
+          40.729628
+        ]
+      },
+      "properties": {
+        "name": "Valence College Preparatory Charter School",
+        "gis_name": "VALENCE COLLEGE PREPARATORY CHARTER SCHOOL",
+        "address": "97-29 64TH RD",
+        "city": "REGO PARK",
+        "zip": "11374",
+        "borough": "Queens",
+        "district": "NYC CSD 28",
+        "year_opened": "2019",
+        "authorizer": "SUNY",
+        "instit_id": "800000090262",
+        "sed_code": "342800861152",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939691,
+          40.760322
+        ]
+      },
+      "properties": {
+        "name": "Voice Charter School of New York",
+        "gis_name": "VOICE CHARTER SCHOOL OF NEW YORK",
+        "address": "36-24 12TH ST",
+        "city": "LONG ISLAND CITY",
+        "zip": "11106",
+        "borough": "Queens",
+        "district": "NYC CSD 30",
+        "year_opened": "2008",
+        "authorizer": "NYCDOE",
+        "instit_id": "800000061089",
+        "sed_code": "343000860932",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94132,
+          40.836536
+        ]
+      },
+      "properties": {
+        "name": "WHIN Music Community Charter School",
+        "gis_name": "WHIN MUSIC COMMUNITY CHARTER SCHOOL",
+        "address": "528 W 162ND ST",
+        "city": "NEW YORK",
+        "zip": "10032",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2017",
+        "authorizer": "Regents",
+        "instit_id": "800000087936",
+        "sed_code": "310600861111",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902675,
+          40.833063
+        ]
+      },
+      "properties": {
+        "name": "Wildflower New York Charter School",
+        "gis_name": "WILDFLOWER NEW YORK CHARTER SCHOOL",
+        "address": "1332 FULTON AVE",
+        "city": "BRONX",
+        "zip": "10456",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000090805",
+        "sed_code": "320900861174",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93581,
+          40.703643
+        ]
+      },
+      "properties": {
+        "name": "Williamsburg Charter High School",
+        "gis_name": "WILLIAMSBURG CHARTER HIGH SCHOOL",
+        "address": "198 VARET ST",
+        "city": "BROOKLYN",
+        "zip": "11206",
+        "borough": "Brooklyn",
+        "district": "NYC CSD 14",
+        "year_opened": "2004",
+        "authorizer": "Regents",
+        "instit_id": "800000057520",
+        "sed_code": "331400860865",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893163,
+          40.845525
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School -  Bronx Tremont Park",
+        "gis_name": "ZETA CHARTER SCHOOL -  BRONX TREMONT PARK",
+        "address": "1910 ARTHUR AVE",
+        "city": "BRONX",
+        "zip": "10457",
+        "borough": "Bronx",
+        "district": "NYC CSD 12",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000091170",
+        "sed_code": "321200861182",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918152,
+          40.842078
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School - Bronx  Mount Eden",
+        "gis_name": "ZETA CHARTER SCHOOL - BRONX  MOUNT EDEN",
+        "address": "1475 MACOMBS RD",
+        "city": "BRONX",
+        "zip": "10452",
+        "borough": "Bronx",
+        "district": "NYC CSD 9",
+        "year_opened": "2020",
+        "authorizer": "SUNY",
+        "instit_id": "800000091169",
+        "sed_code": "320900861181",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912144,
+          40.870974
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School - Inwood",
+        "gis_name": "ZETA CHARTER SCHOOL - INWOOD",
+        "address": "401 W 218TH ST",
+        "city": "NEW YORK",
+        "zip": "10034",
+        "borough": "Manhattan",
+        "district": "NYC CSD 6",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089931",
+        "sed_code": "310600861140",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.830291,
+          40.757752
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School - Queens 2",
+        "gis_name": "ZETA CHARTER SCHOOL - QUEENS FLUSHING",
+        "address": "133-50 41ST AVE",
+        "city": "FLUSHING",
+        "zip": "11355",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093531",
+        "sed_code": "342500861208",
+        "match_method": "id",
+        "name_ratio": 0.727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.866301,
+          40.737356
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School - Queens Elmhurst",
+        "gis_name": "ZETA CS - QUEENS ELMHURST",
+        "address": "55-30 JUNCTION BLVD",
+        "city": "ELMHURST",
+        "zip": "11373",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093530",
+        "sed_code": "342400861207",
+        "match_method": "id",
+        "name_ratio": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.799459,
+          40.703473
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School - Queens Jamaica",
+        "gis_name": "ZETA CS - QUEENS JAMAICA",
+        "address": "159-26 JAMAICA AVE",
+        "city": "JAMAICA",
+        "zip": "11432",
+        "borough": "Queens",
+        "district": "NYC CSD 24",
+        "year_opened": "2025",
+        "authorizer": "SUNY",
+        "instit_id": "800000093533",
+        "sed_code": "342800861209",
+        "match_method": "id",
+        "name_ratio": 0.927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915651,
+          40.816745
+        ]
+      },
+      "properties": {
+        "name": "Zeta Charter School -South Bronx",
+        "gis_name": "ZETA CHARTER SCHOOL -SOUTH BRONX",
+        "address": "425 WESTCHESTER AVE",
+        "city": "BRONX",
+        "zip": "10455",
+        "borough": "Bronx",
+        "district": "NYC CSD 7",
+        "year_opened": "2018",
+        "authorizer": "SUNY",
+        "instit_id": "800000089932",
+        "sed_code": "320700861141",
+        "match_method": "id",
+        "name_ratio": 1.0
+      }
+    }
+  ]
+}

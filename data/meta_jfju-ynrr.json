@@ -1,0 +1,114 @@
+{
+  "id" : "jfju-ynrr",
+  "name" : "School Point Locations",
+  "assetType" : "file",
+  "attribution" : "Department of Education (DOE)",
+  "averageRating" : 0,
+  "blobFilename" : "SchoolPoints_APS_2024_08_28.zip",
+  "blobFileSize" : 119248,
+  "blobId" : "5b6c4ae4-8e42-424e-a373-c8db129a8567",
+  "blobMimeType" : "application/x-zip-compressed",
+  "category" : "Education",
+  "createdAt" : 1316733439,
+  "description" : "This is an ESRI shape file of school point locations based on the official address.  It includes some additional basic and pertinent information needed to link to other data sources. It also includes some basic school information such as Name, Address, Principal, and Principal’s contact information.",
+  "diciBackend" : false,
+  "displayType" : "blob",
+  "downloadCount" : 19803,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1556114684,
+  "locked" : false,
+  "newBackend" : false,
+  "numberOfComments" : 1,
+  "oid" : 334124,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1316733439,
+  "publicationGroup" : 240958,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1316733439,
+  "tableId" : 240958,
+  "totalTimesRated" : 0,
+  "viewCount" : 40247,
+  "viewLastModified" : 1732662442,
+  "viewType" : "blobby",
+  "approvals" : [ {
+    "reviewedAt" : 1316733485,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1063785,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1316733485,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "School_Zones.xlsx",
+      "assetId" : "4126aff5-28f3-4256-b283-aa49fbac4001",
+      "name" : "School_Zones.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "9/22/2011",
+        "Update Frequency" : "Annually"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Education (DOE)"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "blob" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "department of education", "education", "board of ed", "school", "schools", "p.s.", "jhs", "is", "high school", "junior high school", "elementary", "learning", "lifelong learning" ],
+  "flags" : [ "default", "ownerMayBeContacted" ]
+}
