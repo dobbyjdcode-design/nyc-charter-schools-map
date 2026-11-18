@@ -6,16 +6,16 @@ Live map: https://dobbyjdcode-design.github.io/nyc-charter-schools-map/
 
 ## What's on the map
 
-287 charter schools across the five boroughs. Borough counts:
+285 charter schools across the five boroughs. Borough counts:
 
 | Borough | Schools |
 | --- | --- |
-| Bronx | 100 |
+| Bronx | 96 |
 | Brooklyn | 94 |
-| Manhattan | 52 |
-| Queens | 33 |
+| Manhattan | 53 |
+| Queens | 34 |
 | Staten Island | 8 |
-| Total | 287 |
+| Total | 285 |
 
 Built with Leaflet 1.9.4 and OpenStreetMap tiles. It is a single static HTML file with the GeoJSON embedded as a JavaScript literal; there are no API keys and no runtime data calls.
 
@@ -45,16 +45,19 @@ The join is a guarded two-pass join. The NYSED directory is the authoritative li
 - Pass 2 (name rescue): for anything not matched in Pass 1, score the NYSED name against all 426 GIS NYC features and accept the single best only if similarity is at least 0.85. Zero rescues qualified; nothing was guessed.
 - No GIS feature is used by more than one school. When two schools claimed the same feature, the higher-ratio match won and the loser was pushed to unmatched.
 - Coordinates outside the NYC bounding box (latitude 40.47-40.95, longitude -74.30 to -73.68) were rejected.
+- Borough is assigned from each school's ZIP code, not the GIS `COUNTY_DESC` field (which contains errors; see Verification). The GIS county is retained in each feature as `gis_county` for transparency.
+- Two records whose address, county and geometry point to three different boroughs are dropped as unplaceable (see known gaps).
 
-Result: 299 NYSED NYC schools = 287 mapped + 12 unmatched.
+Result: 299 NYSED NYC schools = 285 mapped + 14 not mapped.
 
 ## Verification
 
 An ID-only join (match on `INSTIT_ID` with no name check) produced 8 false matches out of 294, a 2.7% error rate. The worst example: the GIS feature MINISINK CHARTER SCHOOL was joined to the NYSED school "Explore Enrich Charter School" and plotted near Albany, roughly 130 miles outside New York City. Other false matches paired "Girls Preparatory Charter School of the Bronx" with "Bronx Charter School for Excellence 6" and similar. These were detected by a name-agreement check (scoring every matched pair and listing those below 0.60 similarity) and fixed by adding the name guard described above. This is the most important thing in this README: identifier equality alone was not trustworthy, and the name guard is what makes the output correct.
 
-- Minimum accepted name similarity across all 287 matches: 0.625.
-- Independent convergence: our count of 287 sits beside the NYC Charter School Center's publicly reported figure of roughly 286.
-- Success Academy reconciliation: the NYSED directory lists 41 Success Academy charter entities in NYC; the GIS layer contains 59 Success Academy points; and Success Academy publicly reports 59 schools (https://www.successacademies.org/locations/). The GIS campus-level count matches Success Academy's own figure exactly. The difference is one of counting units: 41 counts charters (legal entities), while 59 counts schools (individual campuses and grade bands). We map 40 of the 41 charters; the 41st, "Success Academy Charter School-Bronx 5 Lower," has no distinct GIS point of its own (it collided with the Bronx 5 Upper point and lost).
+- GIS `COUNTY_DESC` defect: the GIS county field is unreliable. Five records had a `COUNTY_DESC` that disagreed with the record's own ZIP, city and coordinates (for example, MINISINK; "Achievement First Legacy" tagged KINGS but located in Saint Albans, Queens; "Democracy Prep Endurance" tagged BRONX but in East Harlem, Manhattan; "Lamad Averne/Arverne" tagged BRONX but in Brooklyn). Because of this, borough is now derived from ZIP code rather than `COUNTY_DESC`. A further 23 schools that sit far from their borough's geographic median were checked individually and confirmed correct (edge neighborhoods such as Far Rockaway, Coney Island and Co-op City, where ZIP, city and coordinates all agree).
+- Minimum accepted name similarity across all kept matches: 0.625.
+- Independent convergence: our count of 285 sits beside the NYC Charter School Center's publicly reported figure of roughly 286.
+- Success Academy reconciliation: the NYSED directory lists 41 Success Academy charter entities in NYC; the GIS layer contains 59 Success Academy points; and Success Academy publicly reports 59 schools (https://www.successacademies.org/locations/). The GIS campus-level count matches Success Academy's own figure exactly. The difference is one of counting units: 41 counts charters (legal entities), while 59 counts schools (individual campuses and grade bands). Of the 41 charters we map 38; the other 3 have no usable geometry: "Success Academy Charter School-Bronx 5 Lower" (collided with the Bronx 5 Upper point and lost), and "Success Academy Charter School - NYC 17" and "NYC 18" (both opening 2026, dropped as unplaceable placeholder records).
 
 ### Spot-check (verified against each school's own website)
 
@@ -71,7 +74,7 @@ All three verified clean. The lowest-similarity match (Brooklyn Prospect, 0.625)
 - The NYSED directory is assumed to list active schools only. It has no closed/active status column; its `ACTIVE_DATE` column is an opening date (its values are opening-year serials), not a status flag.
 - The GIS layer publishes no update date (its `editingInfo` is empty), so a school that relocated could be mapped at its former address.
 - The directory is as of 2025-09-02 and is the newest NYSED publishes. This was verified against the NYSED page; no 2026-2027 edition exists.
-- The 12 unmatched NYSED NYC schools, with the reason for each:
+- The 14 not-mapped NYSED NYC schools, with the reason for each:
 
   | School | Reason |
   | --- | --- |
@@ -87,13 +90,17 @@ All three verified clean. The lowest-similarity match (Brooklyn Prospect, 0.625)
   | Harriet Tubman Charter School | no qualifying match |
   | Manhattan Charter School II | collision loser |
   | Success Academy Charter School-Bronx 5 Lower | collision loser |
+  | Success Academy Charter School - NYC 17 | GIS record carries placeholder address and inconsistent geometry; no reliable location |
+  | Success Academy Charter School - NYC 18 | GIS record carries placeholder address and inconsistent geometry; no reliable location |
+
+  The last two (NYC 17 and NYC 18, both opening 2026) are dropped placeholder records: their GIS entry lists Success Academy's 95 Pine St / 10005 network office in Manhattan as the address, tags the county as Bronx, and places the coordinate in Queens, so no borough can be trusted.
 
 - 132 GIS campus-level records were excluded because they have no corresponding NYSED charter entity (for example, separate middle-school and elementary-school points of a single charter).
 
 ## Next steps
 
 - Add a campus-level layer as a toggle (the 132 excluded records), so networks like Success Academy can be viewed at either granularity.
-- Geocode the 12 unmatched schools from their published addresses.
+- Geocode the 14 not-mapped schools from their published addresses.
 - Add grades served and enrollment to the popups.
 - Add free-text search by school name (borough and Success Academy filtering already exist via the clickable legend).
 

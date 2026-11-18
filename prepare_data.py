@@ -60,13 +60,48 @@ GIS_QUERY_URL = (
 )
 WHERE_CLAUSE = "COUNTY_DESC IN ('BRONX','KINGS','NEW YORK','QUEENS','RICHMOND')"
 
-# COUNTY_DESC (GIS, uppercase) -> borough display name
+# COUNTY_DESC (GIS, uppercase) -> borough display name.
+# NOTE: GIS COUNTY_DESC is unreliable (e.g. MINISINK, plus confirmed records
+# where the county tag disagrees with ZIP, city and coordinates). It is kept
+# only to compute the "old" borough for the change report and stored as
+# gis_county for transparency; the authoritative borough comes from ZIP below.
 BOROUGH_BY_COUNTY = {
     "BRONX": "Bronx",
     "KINGS": "Brooklyn",
     "NEW YORK": "Manhattan",
     "QUEENS": "Queens",
     "RICHMOND": "Staten Island",
+}
+
+BOROUGH_ORDER = ("Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island")
+
+# NYC ZIP prefix (first 3 digits) -> borough. This is the authoritative source
+# of borough for each school (Fix 1).
+ZIP_PREFIX_BOROUGH = {
+    "100": "Manhattan", "101": "Manhattan", "102": "Manhattan",
+    "104": "Bronx",
+    "103": "Staten Island",
+    "112": "Brooklyn",
+    "110": "Queens", "111": "Queens", "113": "Queens", "114": "Queens", "116": "Queens",
+}
+
+
+def borough_from_zip(zip_code):
+    """Return borough from a 5-digit ZIP's 3-digit prefix, or None if unknown."""
+    z = (zip_code or "").strip()
+    return ZIP_PREFIX_BOROUGH.get(z[:3])
+
+
+# Two Success Academy records (NYC 17 and NYC 18, both opening 2026) carry a
+# placeholder network-office address (95 Pine St / 10005, Success Academy's
+# Manhattan HQ), a COUNTY_DESC of BRONX, and coordinates that land in Queens --
+# three different boroughs, so the point cannot be trusted. A clean, offline
+# "which borough does this coordinate fall in" test would require borough
+# polygons we do not have; rather than invent a fragile heuristic we exclude
+# these two by INSTIT_ID, with this explanation (Fix 2).
+PLACEHOLDER_INSTIT_IDS = {
+    "800000093528",  # Success Academy Charter School - NYC 17
+    "800000093529",  # Success Academy Charter School - NYC 18
 }
 
 # NYC bounding box (rough) used to drop suspect coordinates after matching.
@@ -336,16 +371,40 @@ def build():
             oob_drops.append((ni, gi, coords))
 
     # ------------------------------------------------------------------ build
+    # Fix 1: borough derived from ZIP (not COUNTY_DESC).
+    # Fix 2: drop the unplaceable placeholder records (PLACEHOLDER_INSTIT_IDS).
     out_features = []
+    borough_changes = []       # (name, old_borough, new_borough, zip)
+    unrecognized_zip = []      # (name, zip)  -> triggers STOP
+    dropped_placeholder = []   # nysed_index of excluded placeholder records
+
     for ni, (gi, method, r) in sorted(final.items()):
         row = nysed[ni]
         p = gis[gi].get("properties") or {}
+        iid = norm_key(p.get("INSTIT_ID"))
+
+        # Fix 2: exclude unplaceable placeholder records.
+        if iid in PLACEHOLDER_INSTIT_IDS:
+            dropped_placeholder.append(ni)
+            continue
+
         geom = gis[gi].get("geometry") or {}
         c = geom.get("coordinates")
         coords = [round(float(c[0]), 6), round(float(c[1]), 6)]
         addr_parts = [p.get("PHYSADDRLINE1") or "", p.get("PHYSADDRLINE2") or ""]
         address = " ".join(x.strip() for x in addr_parts if x and x.strip())
         county = (p.get("COUNTY_DESC") or "").strip()
+        zip_code = (p.get("PHYSZIPCD5") or "").strip()
+
+        # Fix 1: borough from ZIP. Stop rather than guess on an unknown prefix.
+        new_borough = borough_from_zip(zip_code)
+        if new_borough is None:
+            unrecognized_zip.append((row["name"], zip_code))
+            continue
+        old_borough = BOROUGH_BY_COUNTY.get(county, county)
+        if new_borough != old_borough:
+            borough_changes.append((row["name"], old_borough, new_borough, zip_code))
+
         out_features.append({
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": coords},
@@ -354,129 +413,105 @@ def build():
                 "gis_name": p.get("LEGAL_NAME"),
                 "address": address,
                 "city": (p.get("PHYSCITY") or "").strip(),
-                "zip": (p.get("PHYSZIPCD5") or "").strip(),
-                "borough": BOROUGH_BY_COUNTY.get(county, county),
+                "zip": zip_code,
+                "borough": new_borough,         # Fix 1: authoritative, from ZIP
+                "gis_county": county,           # kept for transparency
+                "borough_source": "zip",
                 "district": row["district"],
                 "year_opened": row["year_opened"],
                 "authorizer": row["authorizer"],
-                "instit_id": norm_key(p.get("INSTIT_ID")),
+                "instit_id": iid,
                 "sed_code": norm_key(p.get("SED_CODE")),
                 "match_method": method,
                 "name_ratio": round(r, 3),
             },
         })
 
+    # Fix 1 guard: never guess a borough for an unrecognized ZIP prefix.
+    if unrecognized_zip:
+        hr("STOP: UNRECOGNIZED ZIP PREFIX(ES) - refusing to guess a borough")
+        for nm, z in unrecognized_zip:
+            print("    %s | zip=%r" % (nm, z))
+        raise SystemExit("Unrecognized ZIP prefix encountered; aborting.")
+
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": out_features}, f, indent=2)
 
-    # Unmatched NYSED rows (anything not in final), with a reason.
+    # Not-mapped NYSED rows, with a reason. Placeholder drops are counted here.
     oob_nis = {ni for ni, _, _ in oob_drops}
     collision_loser_nis = {lo[0] for _, _, losers in collisions for lo in losers}
-    unmatched = []
+    placeholder_nis = set(dropped_placeholder)
+    PLACEHOLDER_REASON = ("GIS record carries placeholder address and inconsistent "
+                          "geometry; no reliable location")
+    not_mapped = []
     for ni, row in enumerate(nysed):
-        if ni in final:
-            continue
-        if ni in oob_nis:
+        if ni in final and ni not in placeholder_nis:
+            continue  # mapped and kept in output
+        if ni in placeholder_nis:
+            reason = PLACEHOLDER_REASON
+        elif ni in oob_nis:
             reason = "dropped: out-of-bounds geometry"
         elif ni in collision_loser_nis:
             reason = "collision loser"
         else:
             reason = "no qualifying match"
-        unmatched.append((ni, row, reason))
+        not_mapped.append((ni, row, reason))
+
+    mapped = len(out_features)
 
     # =================================================================== report
+    hr("FIX 1: BOROUGH DERIVED FROM ZIP (not COUNTY_DESC)")
+    print("  features whose borough changed: %d" % len(borough_changes))
+    for nm, ob, nb, z in sorted(borough_changes):
+        print("    %s | %s -> %s | zip=%s" % (nm, ob, nb, z))
+
+    hr("FIX 2: DROPPED PLACEHOLDER RECORDS")
+    if not dropped_placeholder:
+        print("  (none)")
+    for ni in dropped_placeholder:
+        print("    DROPPED %s | INSTIT_ID=%s" % (nysed[ni]["name"], nysed[ni]["instit_id"]))
+        print("      reason: %s" % PLACEHOLDER_REASON)
+
     hr("REPORT")
+    print("(a) total features: %d" % mapped)
 
-    n_id = sum(1 for v in final.values() if v[1] == "id")
-    n_name = sum(1 for v in final.values() if v[1] == "name")
-    print("(a) COUNTS")
-    print("    matched via id   : %d" % n_id)
-    print("    matched via name : %d" % n_name)
-    print("    unmatched        : %d" % len(unmatched))
-
-    print("\n(b) COMPLETE UNMATCHED NYSED NYC LIST (README known-gaps):")
-    if not unmatched:
-        print("    (none)")
-    for ni, row, reason in sorted(unmatched, key=lambda t: t[1]["name"]):
-        print("    - %s | INSTIT_ID=%s | %s"
-              % (row["name"], row["instit_id"], reason))
-
-    print("\n(c) PASS-2 NAME RESCUES:")
-    rescues = [(ni, v) for ni, v in final.items() if v[1] == "name"]
-    if not rescues:
-        print("    (none)")
-    for ni, (gi, method, r) in sorted(rescues, key=lambda t: -t[1][2]):
-        print("    ratio=%.3f  NYSED='%s'  GIS='%s'"
-              % (r, nysed[ni]["name"], (gis[gi].get("properties") or {}).get("LEGAL_NAME")))
-
-    print("\n(d) COLLISIONS RESOLVED:")
-    if not collisions:
-        print("    (none)")
-    for gi, win, losers in collisions:
-        legal = (gis[gi].get("properties") or {}).get("LEGAL_NAME")
-        wni, wmethod, wr = win
-        print("    GIS '%s' (INSTIT_ID=%s)"
-              % (legal, norm_key((gis[gi].get('properties') or {}).get('INSTIT_ID'))))
-        print("        WINNER : '%s' (method=%s ratio=%.3f)"
-              % (nysed[wni]["name"], wmethod, wr))
-        for lni, lmethod, lr in losers:
-            print("        loser  : '%s' (method=%s ratio=%.3f) -> unmatched"
-                  % (nysed[lni]["name"], lmethod, lr))
-
-    print("\n(e) OUT-OF-BOUNDS DROPS (after matching):")
-    if not oob_drops:
-        print("    (none)")
-    for ni, gi, coords in oob_drops:
-        legal = (gis[gi].get("properties") or {}).get("LEGAL_NAME")
-        print("    NYSED='%s' <- GIS='%s' coords=%s  (outside lat %.2f-%.2f / lon %.2f-%.2f)"
-              % (nysed[ni]["name"], legal, coords, LAT_MIN, LAT_MAX, LON_MIN, LON_MAX))
-
-    print("\n(f) WATCHED FORMERLY-WRONG GIS FEATURES - current status:")
-    # map gis_index -> accepted/final status
-    for gi, legal in sorted((i, (gis[i].get("properties") or {}).get("LEGAL_NAME"))
-                            for i in range(len(gis))
-                            if (gis[i].get("properties") or {}).get("LEGAL_NAME") in WATCH_NAMES):
-        # find any NYSED row that ended up using this feature
-        used_by = [ni for ni, (g, m, r) in final.items() if g == gi]
-        dropped = [ni for ni, g, c in oob_drops if g == gi]
-        if used_by:
-            ni = used_by[0]
-            g, m, r = final[ni]
-            print("    GIS '%s' -> MATCHED to NYSED '%s' (method=%s ratio=%.3f)"
-                  % (legal, nysed[ni]["name"], m, r))
-        elif dropped:
-            ni = dropped[0]
-            print("    GIS '%s' -> DROPPED (out-of-bounds); was tentatively NYSED '%s'"
-                  % (legal, nysed[ni]["name"]))
-        else:
-            print("    GIS '%s' -> NOT matched to any NYSED school (correctly unused)"
-                  % legal)
-
-    print("\n(g) MINIMUM name_ratio across accepted matches:")
-    if final:
-        print("    %.3f" % min(v[2] for v in final.values()))
-    else:
-        print("    (no matches)")
-
-    print("\n(h) FINAL COUNTS BY BOROUGH:")
     by_boro = {}
     for feat in out_features:
-        b = feat["properties"]["borough"]
-        by_boro[b] = by_boro.get(b, 0) + 1
-    for b in ("Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"):
+        by_boro[feat["properties"]["borough"]] = by_boro.get(feat["properties"]["borough"], 0) + 1
+    print("\n(b) borough counts:")
+    for b in BOROUGH_ORDER:
         print("    %-14s %d" % (b, by_boro.get(b, 0)))
     for b, n in by_boro.items():
-        if b not in ("Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"):
+        if b not in BOROUGH_ORDER:
             print("    %-14s %d  (unexpected)" % (b, n))
-    print("    TOTAL FEATURES: %d" % len(out_features))
 
-    print("\n(i) ARITHMETIC:")
-    print("    299 NYSED NYC schools = %d mapped + %d unmatched"
-          % (len(final), len(unmatched)))
-    print("    (check: %d + %d = %d)"
-          % (len(final), len(unmatched), len(final) + len(unmatched)))
+    sa_count = sum(1 for f in out_features
+                   if "success academy" in (f["properties"]["name"] or "").lower())
+    print("\n(c) Success Academy count: %d" % sa_count)
 
-    print("\n  wrote %d features -> %s" % (len(out_features), OUT_PATH))
+    reason_counts = {}
+    for _, _, reason in not_mapped:
+        reason_counts[reason] = reason_counts.get(reason, 0) + 1
+    print("\n(d) ARITHMETIC:")
+    print("    299 NYSED NYC schools = %d mapped + %d not mapped" % (mapped, len(not_mapped)))
+    for reason in sorted(reason_counts):
+        print("      %d  %s" % (reason_counts[reason], reason))
+    print("    (check: %d + %d = %d)" % (mapped, len(not_mapped), mapped + len(not_mapped)))
+    print("    not-mapped detail:")
+    for ni, row, reason in sorted(not_mapped, key=lambda t: t[1]["name"]):
+        print("      - %s | INSTIT_ID=%s | %s" % (row["name"], row["instit_id"], reason))
+
+    # (e) re-run the ZIP-vs-borough consistency check on the output.
+    zip_mismatch = 0
+    for feat in out_features:
+        exp = borough_from_zip(feat["properties"]["zip"])
+        if exp != feat["properties"]["borough"]:
+            zip_mismatch += 1
+    print("\n(e) ZIP-vs-borough recheck on output: %d mismatch(es)" % zip_mismatch)
+
+    print("\n    minimum name_ratio across kept matches: %.3f"
+          % (min(f["properties"]["name_ratio"] for f in out_features) if out_features else 0))
+    print("    wrote %d features -> %s" % (mapped, OUT_PATH))
 
     # Embed the fresh GeoJSON into index.html between the marker comments.
     embed_geojson_into_index()
