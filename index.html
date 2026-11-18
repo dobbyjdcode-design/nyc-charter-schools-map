@@ -7339,6 +7339,8 @@
     },
     onEachFeature: function (feature, lyr) {
       lyr.bindPopup(popupHtml(feature.properties));
+      // Additive hover tooltip; the click popup above is unchanged.
+      lyr.bindTooltip(feature.properties.name || "", { direction: "top", offset: [0, -6] });
     }
   }).addTo(map);
 
