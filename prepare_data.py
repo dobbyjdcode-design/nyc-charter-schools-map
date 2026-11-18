@@ -49,6 +49,11 @@ XLSX_PATH = os.path.join(DATA_DIR, "nys-charter-school-directory-as-of-09-02-202
 GIS_RAW_PATH = os.path.join(DATA_DIR, "nys_gis_charter_nyc_raw.geojson")
 OUT_PATH = os.path.join(DATA_DIR, "schools.geojson")
 
+# index.html embed markers (the GeoJSON literal lives between these)
+INDEX_PATH = "index.html"
+GEOJSON_START = "/* GEOJSON_START */"
+GEOJSON_END = "/* GEOJSON_END */"
+
 GIS_QUERY_URL = (
     "https://nysgeohub.ny.gov/arcgis/rest/services/"
     "Education/NYS_Schools/FeatureServer/3/query"
@@ -472,6 +477,35 @@ def build():
           % (len(final), len(unmatched), len(final) + len(unmatched)))
 
     print("\n  wrote %d features -> %s" % (len(out_features), OUT_PATH))
+
+    # Embed the fresh GeoJSON into index.html between the marker comments.
+    embed_geojson_into_index()
+
+
+def embed_geojson_into_index():
+    """Rewrite the text between /* GEOJSON_START */ and /* GEOJSON_END */ in
+    index.html with the current data/schools.geojson, so the map ships with the
+    data embedded (works over file://, no runtime fetch). Simple marker split."""
+    hr("STEP 1g: EMBED GeoJSON INTO index.html")
+    if not os.path.exists(INDEX_PATH):
+        print("  %s not found - skipping embed" % INDEX_PATH)
+        return
+    with open(OUT_PATH, encoding="utf-8") as f:
+        geojson_text = f.read().strip()
+    with open(INDEX_PATH, encoding="utf-8") as f:
+        html = f.read()
+    if GEOJSON_START not in html or GEOJSON_END not in html:
+        print("  markers not found in %s - skipping (nothing changed)" % INDEX_PATH)
+        return
+
+    head = html.split(GEOJSON_START, 1)[0] + GEOJSON_START
+    tail = GEOJSON_END + html.split(GEOJSON_END, 1)[1]
+    new_middle = "\n  const SCHOOLS = " + geojson_text + ";\n  "
+    with open(INDEX_PATH, "w", encoding="utf-8") as f:
+        f.write(head + new_middle + tail)
+
+    n = len(json.loads(geojson_text).get("features", []))
+    print("  embedded %d features into %s" % (n, INDEX_PATH))
 
 
 if __name__ == "__main__":
