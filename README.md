@@ -95,7 +95,7 @@ All three verified clean. The lowest-similarity match (Brooklyn Prospect, 0.625)
 - Add a campus-level layer as a toggle (the 132 excluded records), so networks like Success Academy can be viewed at either granularity.
 - Geocode the 12 unmatched schools from their published addresses.
 - Add grades served and enrollment to the popups.
-- Add search and filter by name.
+- Add free-text search by school name (borough and Success Academy filtering already exist via the clickable legend).
 
 ## Reproducing
 
@@ -109,7 +109,7 @@ This fetches the GIS NYC features, parses the NYSED directory, runs the guarded 
 
 ## Time spent
 
-About 60 minutes of working time across two sittings (evening of Nov 17 and early morning of Nov 18, 2026).
+~90 minutes of working time across two sittings (evening Nov 17, early morning Nov 18).
 
 ## How I used AI
 

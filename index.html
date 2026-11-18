@@ -36,6 +36,13 @@
       border-radius: 10px;
       line-height: 1.3;
     }
+    #note {
+      margin-top: 5px;
+      font-size: 10.5px;
+      line-height: 1.35;
+      color: #b9b9cf;              /* visually lighter than the badge */
+      max-width: 72ch;
+    }
     #map { flex: 1 1 auto; min-height: 0; }  /* fills viewport below header */
 
     .legend {
@@ -49,7 +56,18 @@
       max-width: 46vw;                  /* never cover the map on a phone */
     }
     .legend-title { font-weight: 600; margin-bottom: 4px; }
-    .legend-row { white-space: nowrap; }
+    .legend-row {
+      white-space: nowrap;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 1px 4px;
+      user-select: none;
+    }
+    .legend-row:hover { background: rgba(0, 0, 0, 0.07); }
+    .legend-row:focus { outline: 2px solid #4a90d9; outline-offset: 1px; }
+    .legend-row.off { color: #a7a7a7; }               /* filtered-out borough */
+    .legend-row.off .swatch { background: transparent !important; border-color: #c2c2c2; }
+    .legend-row.engaged { font-weight: 700; background: rgba(0, 0, 0, 0.10); }  /* SA-only on */
     .swatch {
       display: inline-block;
       width: 12px; height: 12px;
@@ -67,9 +85,27 @@
     .popup-title { font-weight: 600; margin-bottom: 4px; font-size: 13px; }
     .leaflet-popup-content { font-size: 12px; line-height: 1.45; }
 
+    .legend-empty {
+      display: none;                 /* shown only when a filter leaves 0 */
+      margin-top: 5px;
+      color: #b00020;
+      font-style: italic;
+      white-space: normal;
+      max-width: 44vw;
+    }
+    .legend-reset { margin-top: 6px; }
+    .legend-reset a {
+      font-size: 11px;
+      color: #1a6ea0;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .legend-reset a:focus { outline: 2px solid #4a90d9; outline-offset: 1px; }
+
     @media (max-width: 600px) {
       .legend { font-size: 11px; padding: 6px 8px; max-width: 52vw; }
       .swatch { width: 10px; height: 10px; margin-right: 5px; }
+      #note { font-size: 10px; }
     }
   </style>
 </head>
@@ -77,6 +113,7 @@
   <header>
     <h1>NYC Charter Schools</h1>
     <span id="badge"></span>
+    <div id="note"></div>
   </header>
   <div id="map"></div>
 
@@ -7278,12 +7315,14 @@
     return (props.name || "").toLowerCase().indexOf("success academy") !== -1;
   }
 
-  // --- header badge: feature count taken from the data at runtime ---------
+  // --- header note: make the counting unit explicit ----------------------
   const total = SCHOOLS.features.length;
-  document.getElementById("badge").textContent =
-    total + " charter schools \u00b7 NYC \u00b7 source: NYSED directory as of 2025-09-02";
+  document.getElementById("note").textContent =
+    "Counts are charter entities per the NYSED directory (as of 2025-09-02). " +
+    "Success Academy operates 59 schools under 41 NYC charters; 40 have a distinct " +
+    "point in the state GIS layer. See the README for the full reconciliation.";
 
-  // --- pre-pass: per-borough counts + Success Academy count for the legend -
+  // --- per-borough counts + Success Academy count for the legend ----------
   const counts = {};
   let successCount = 0;
   SCHOOLS.features.forEach(function (f) {
@@ -7324,8 +7363,11 @@
     return h;
   }
 
-  // --- school markers -----------------------------------------------------
-  const layer = L.geoJSON(SCHOOLS, {
+  // --- build markers once; hold them in a single array --------------------
+  // Markers are created with L.geoJSON for geometry + styling but are NOT
+  // added to the map here. A layer group controls visibility via add/remove
+  // (styling, colors and the Success Academy highlight are unchanged).
+  const builder = L.geoJSON(SCHOOLS, {
     pointToLayer: function (feature, latlng) {
       const p = feature.properties;
       const succ = isSuccess(p);
@@ -7342,30 +7384,126 @@
       // Additive hover tooltip; the click popup above is unchanged.
       lyr.bindTooltip(feature.properties.name || "", { direction: "top", offset: [0, -6] });
     }
-  }).addTo(map);
+  });
 
-  // --- fit to data on load ------------------------------------------------
+  const items = [];   // one entry per school: { marker, borough, isSA }
+  builder.eachLayer(function (lyr) {
+    const p = lyr.feature.properties;
+    items.push({ marker: lyr, borough: p.borough, isSA: isSuccess(p) });
+  });
+
+  const group = L.layerGroup().addTo(map);  // holds currently-visible markers
+
+  // --- fit to data once on load; filters never refit ----------------------
   if (total > 0) {
-    map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+    map.fitBounds(builder.getBounds(), { padding: [20, 20] });
   } else {
     map.setView([40.7128, -74.006], 11);  // fallback if data not yet embedded
   }
 
-  // --- legend -------------------------------------------------------------
+  // --- filter state -------------------------------------------------------
+  const activeBoroughs = new Set(BOROUGH_ORDER);  // all five start active
+  let saOnly = false;                             // "Success Academy only" mode
+
+  const boroughRowEls = {};
+  let saRowEl = null;
+  let emptyEl = null;
+
+  function applyFilter() {
+    let visible = 0;
+    items.forEach(function (it) {
+      // show if borough is active AND (SA-only is off OR the school is SA)
+      const show = activeBoroughs.has(it.borough) && (!saOnly || it.isSA);
+      if (show) {
+        if (!group.hasLayer(it.marker)) group.addLayer(it.marker);
+        visible++;
+      } else if (group.hasLayer(it.marker)) {
+        group.removeLayer(it.marker);
+      }
+    });
+
+    // badge: live visible count + unchanged source/date text
+    document.getElementById("badge").textContent =
+      "Showing " + visible + " of " + total + " charter schools " +
+      "\u00b7 NYC \u00b7 source: NYSED directory as of 2025-09-02";
+
+    // legend visual state
+    BOROUGH_ORDER.forEach(function (b) {
+      if (boroughRowEls[b]) boroughRowEls[b].classList.toggle("off", !activeBoroughs.has(b));
+    });
+    if (saRowEl) saRowEl.classList.toggle("engaged", saOnly);
+    if (emptyEl) emptyEl.style.display = (visible === 0) ? "block" : "none";
+  }
+
+  function toggleBorough(b) {
+    if (activeBoroughs.has(b)) activeBoroughs.delete(b);
+    else activeBoroughs.add(b);
+    applyFilter();
+  }
+  function toggleSA() { saOnly = !saOnly; applyFilter(); }
+  function resetFilters() {
+    BOROUGH_ORDER.forEach(function (b) { activeBoroughs.add(b); });
+    saOnly = false;
+    applyFilter();
+  }
+
+  // --- interactive legend -------------------------------------------------
   const legend = L.control({ position: "bottomright" });
   legend.onAdd = function () {
     const div = L.DomUtil.create("div", "legend");
-    let html = '<div class="legend-title">Borough</div>';
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+
+    function makeRow(parent, innerHtml, onToggle) {
+      const row = L.DomUtil.create("div", "legend-row", parent);
+      row.setAttribute("role", "button");
+      row.setAttribute("tabindex", "0");
+      row.innerHTML = innerHtml;
+      L.DomEvent.on(row, "click", onToggle);
+      L.DomEvent.on(row, "keydown", function (e) {
+        if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+          L.DomEvent.preventDefault(e);
+          onToggle();
+        }
+      });
+      return row;
+    }
+
+    const title = L.DomUtil.create("div", "legend-title", div);
+    title.textContent = "Borough (click to filter)";
+
     BOROUGH_ORDER.forEach(function (b) {
-      html += '<div class="legend-row"><span class="swatch" style="background:' +
-        BOROUGH_COLORS[b] + '"></span>' + b + " (" + (counts[b] || 0) + ")</div>";
+      const sw = '<span class="swatch" style="background:' + BOROUGH_COLORS[b] + '"></span>';
+      boroughRowEls[b] = makeRow(div, sw + b + " (" + (counts[b] || 0) + ")",
+        function () { toggleBorough(b); });
     });
-    html += '<div class="legend-row"><span class="swatch swatch-success"></span>' +
-      "Success Academy (" + successCount + ")</div>";
-    div.innerHTML = html;
+
+    saRowEl = makeRow(div,
+      '<span class="swatch swatch-success"></span>Success Academy (' + successCount + " charters)",
+      toggleSA);
+
+    emptyEl = L.DomUtil.create("div", "legend-empty", div);
+    emptyEl.textContent = "No schools match the current filter.";
+
+    const resetWrap = L.DomUtil.create("div", "legend-reset", div);
+    const reset = L.DomUtil.create("a", "", resetWrap);
+    reset.setAttribute("role", "button");
+    reset.setAttribute("tabindex", "0");
+    reset.textContent = "Reset";
+    L.DomEvent.on(reset, "click", resetFilters);
+    L.DomEvent.on(reset, "keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        L.DomEvent.preventDefault(e);
+        resetFilters();
+      }
+    });
+
     return div;
   };
   legend.addTo(map);
+
+  // initial render: all 287 visible
+  applyFilter();
   </script>
 </body>
 </html>
